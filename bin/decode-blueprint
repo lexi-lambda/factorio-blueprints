@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+read -n1 version_byte
+if [[ $version_byte != 0 ]]; then
+  echo "$0: unexpected version ($version_byte)" >&2
+  exit 1
+fi
+
+base64 --decode --ignore-garbage \
+  | pigz --zlib --decompress \
+  | jq --sort-keys

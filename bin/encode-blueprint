@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+printf '0' # blueprint version number
+jq --compact-output \
+  | pigz --zlib --best \
+  | base64 --wrap=0
