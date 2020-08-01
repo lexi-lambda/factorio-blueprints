@@ -1,4 +1,4 @@
-blueprints := base-in-a-book railway
+blueprints := 10-reactor-power-plant base-in-a-book railway
 
 decode: $(blueprints:%=decoded/%.json)
 encode: $(blueprints:%=encoded/%.blueprint)
