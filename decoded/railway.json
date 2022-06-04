@@ -166,6 +166,9 @@
                   {
                     "entity_number": 18,
                     "name": "big-electric-pole",
+                    "neighbours": [
+                      19
+                    ],
                     "position": {
                       "x": 0,
                       "y": 16
@@ -174,6 +177,10 @@
                   {
                     "entity_number": 19,
                     "name": "big-electric-pole",
+                    "neighbours": [
+                      18,
+                      20
+                    ],
                     "position": {
                       "x": 16,
                       "y": 16
@@ -182,6 +189,9 @@
                   {
                     "entity_number": 20,
                     "name": "big-electric-pole",
+                    "neighbours": [
+                      19
+                    ],
                     "position": {
                       "x": 32,
                       "y": 16
@@ -356,7 +366,7 @@
                   "x": 32,
                   "y": 32
                 },
-                "version": 77311901696
+                "version": 281479275544576
               },
               "index": 0
             },
@@ -421,6 +431,9 @@
                   {
                     "entity_number": 7,
                     "name": "big-electric-pole",
+                    "neighbours": [
+                      40
+                    ],
                     "position": {
                       "x": 0,
                       "y": 0
@@ -717,6 +730,10 @@
                   {
                     "entity_number": 40,
                     "name": "big-electric-pole",
+                    "neighbours": [
+                      7,
+                      73
+                    ],
                     "position": {
                       "x": 16,
                       "y": 16
@@ -1013,6 +1030,9 @@
                   {
                     "entity_number": 73,
                     "name": "big-electric-pole",
+                    "neighbours": [
+                      40
+                    ],
                     "position": {
                       "x": 32,
                       "y": 32
@@ -1088,7 +1108,7 @@
                   "x": 32,
                   "y": 32
                 },
-                "version": 77311901696
+                "version": 281479275544576
               },
               "index": 1
             },
@@ -1130,6 +1150,9 @@
                         {
                           "entity_number": 4,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            19
+                          ],
                           "position": {
                             "x": 32,
                             "y": 16
@@ -1262,6 +1285,9 @@
                         {
                           "entity_number": 19,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            4
+                          ],
                           "position": {
                             "x": 16,
                             "y": 32
@@ -1291,7 +1317,7 @@
                         "x": 32,
                         "y": 32
                       },
-                      "version": 77311901696
+                      "version": 281479275544576
                     },
                     "index": 0
                   },
@@ -1383,6 +1409,9 @@
                         {
                           "entity_number": 10,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            11
+                          ],
                           "position": {
                             "x": 0,
                             "y": 16
@@ -1391,6 +1420,10 @@
                         {
                           "entity_number": 11,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            10,
+                            40
+                          ],
                           "position": {
                             "x": 16,
                             "y": 16
@@ -1651,6 +1684,9 @@
                         {
                           "entity_number": 40,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            11
+                          ],
                           "position": {
                             "x": 32,
                             "y": 32
@@ -1717,7 +1753,7 @@
                         "x": 32,
                         "y": 32
                       },
-                      "version": 77311901696
+                      "version": 281479275544576
                     },
                     "index": 1
                   },
@@ -1737,6 +1773,9 @@
                         {
                           "entity_number": 2,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            36
+                          ],
                           "position": {
                             "x": 32,
                             "y": 0
@@ -2033,6 +2072,9 @@
                         {
                           "entity_number": 35,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            36
+                          ],
                           "position": {
                             "x": 0,
                             "y": 16
@@ -2041,6 +2083,10 @@
                         {
                           "entity_number": 36,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            2,
+                            35
+                          ],
                           "position": {
                             "x": 16,
                             "y": 16
@@ -2143,14 +2189,14 @@
                         "x": 32,
                         "y": 32
                       },
-                      "version": 77311901696
+                      "version": 281479275544576
                     },
                     "index": 2
                   }
                 ],
                 "item": "blueprint-book",
                 "label": "Turns",
-                "version": 77311901696
+                "version": 281479275544576
               },
               "index": 2
             },
@@ -2198,6 +2244,9 @@
                         {
                           "entity_number": 5,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            22
+                          ],
                           "position": {
                             "x": 16,
                             "y": -32
@@ -2334,6 +2383,10 @@
                         {
                           "entity_number": 22,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            5,
+                            53
+                          ],
                           "position": {
                             "x": 16,
                             "y": -16
@@ -2380,7 +2433,16 @@
                           }
                         },
                         {
+                          "direction": 4,
                           "entity_number": 28,
+                          "name": "curved-rail",
+                          "position": {
+                            "x": 14,
+                            "y": -8
+                          }
+                        },
+                        {
+                          "entity_number": 29,
                           "name": "straight-rail",
                           "position": {
                             "x": 13,
@@ -2389,28 +2451,19 @@
                         },
                         {
                           "direction": 4,
-                          "entity_number": 29,
-                          "name": "curved-rail",
-                          "position": {
-                            "x": 14,
-                            "y": -8
-                          }
-                        },
-                        {
                           "entity_number": 30,
-                          "name": "straight-rail",
-                          "position": {
-                            "x": 19,
-                            "y": -11
-                          }
-                        },
-                        {
-                          "direction": 4,
-                          "entity_number": 31,
                           "name": "curved-rail",
                           "position": {
                             "x": 20,
                             "y": -8
+                          }
+                        },
+                        {
+                          "entity_number": 31,
+                          "name": "straight-rail",
+                          "position": {
+                            "x": 19,
+                            "y": -11
                           }
                         },
                         {
@@ -2523,8 +2576,17 @@
                           }
                         },
                         {
-                          "direction": 7,
+                          "direction": 5,
                           "entity_number": 45,
+                          "name": "straight-rail",
+                          "position": {
+                            "x": 19,
+                            "y": -3
+                          }
+                        },
+                        {
+                          "direction": 7,
+                          "entity_number": 46,
                           "name": "rail-chain-signal",
                           "position": {
                             "x": 16.5,
@@ -2532,29 +2594,20 @@
                           }
                         },
                         {
-                          "direction": 5,
-                          "entity_number": 46,
-                          "name": "straight-rail",
-                          "position": {
-                            "x": 19,
-                            "y": -3
-                          }
-                        },
-                        {
+                          "direction": 1,
                           "entity_number": 47,
                           "name": "straight-rail",
                           "position": {
                             "x": 19,
-                            "y": -3
+                            "y": -1
                           }
                         },
                         {
-                          "direction": 1,
                           "entity_number": 48,
                           "name": "straight-rail",
                           "position": {
                             "x": 19,
-                            "y": -1
+                            "y": -3
                           }
                         },
                         {
@@ -2595,25 +2648,29 @@
                         {
                           "entity_number": 53,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            22,
+                            122
+                          ],
                           "position": {
                             "x": 16,
                             "y": 0
                           }
                         },
                         {
+                          "direction": 5,
                           "entity_number": 54,
                           "name": "straight-rail",
                           "position": {
-                            "x": 19,
+                            "x": 21,
                             "y": -1
                           }
                         },
                         {
-                          "direction": 5,
                           "entity_number": 55,
                           "name": "straight-rail",
                           "position": {
-                            "x": 21,
+                            "x": 19,
                             "y": -1
                           }
                         },
@@ -2661,21 +2718,21 @@
                           }
                         },
                         {
-                          "direction": 4,
-                          "entity_number": 61,
-                          "name": "rail-chain-signal",
-                          "position": {
-                            "x": 20.5,
-                            "y": 1.5
-                          }
-                        },
-                        {
                           "direction": 5,
-                          "entity_number": 62,
+                          "entity_number": 61,
                           "name": "straight-rail",
                           "position": {
                             "x": 23,
                             "y": 1
+                          }
+                        },
+                        {
+                          "direction": 4,
+                          "entity_number": 62,
+                          "name": "rail-chain-signal",
+                          "position": {
+                            "x": 20.5,
+                            "y": 1.5
                           }
                         },
                         {
@@ -2957,21 +3014,21 @@
                           }
                         },
                         {
-                          "direction": 7,
-                          "entity_number": 95,
-                          "name": "rail-chain-signal",
-                          "position": {
-                            "x": 30.5,
-                            "y": 11.5
-                          }
-                        },
-                        {
                           "direction": 5,
-                          "entity_number": 96,
+                          "entity_number": 95,
                           "name": "straight-rail",
                           "position": {
                             "x": 33,
                             "y": 11
+                          }
+                        },
+                        {
+                          "direction": 7,
+                          "entity_number": 96,
+                          "name": "rail-chain-signal",
+                          "position": {
+                            "x": 30.5,
+                            "y": 11.5
                           }
                         },
                         {
@@ -3027,8 +3084,17 @@
                           }
                         },
                         {
-                          "direction": 2,
+                          "direction": 5,
                           "entity_number": 103,
+                          "name": "straight-rail",
+                          "position": {
+                            "x": 35,
+                            "y": 13
+                          }
+                        },
+                        {
+                          "direction": 2,
+                          "entity_number": 104,
                           "name": "straight-rail",
                           "position": {
                             "x": 33,
@@ -3036,30 +3102,21 @@
                           }
                         },
                         {
-                          "direction": 5,
-                          "entity_number": 104,
-                          "name": "straight-rail",
-                          "position": {
-                            "x": 35,
-                            "y": 13
-                          }
-                        },
-                        {
-                          "direction": 2,
+                          "direction": 1,
                           "entity_number": 105,
                           "name": "straight-rail",
                           "position": {
                             "x": 35,
-                            "y": 13
+                            "y": 15
                           }
                         },
                         {
-                          "direction": 1,
+                          "direction": 2,
                           "entity_number": 106,
                           "name": "straight-rail",
                           "position": {
                             "x": 35,
-                            "y": 15
+                            "y": 13
                           }
                         },
                         {
@@ -3199,6 +3256,11 @@
                         {
                           "entity_number": 122,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            53,
+                            126,
+                            184
+                          ],
                           "position": {
                             "x": 16,
                             "y": 16
@@ -3213,17 +3275,8 @@
                           }
                         },
                         {
-                          "direction": 4,
-                          "entity_number": 124,
-                          "name": "rail-chain-signal",
-                          "position": {
-                            "x": 20.5,
-                            "y": 15.5
-                          }
-                        },
-                        {
                           "direction": 7,
-                          "entity_number": 125,
+                          "entity_number": 124,
                           "name": "straight-rail",
                           "position": {
                             "x": 23,
@@ -3231,29 +3284,42 @@
                           }
                         },
                         {
+                          "direction": 4,
+                          "entity_number": 125,
+                          "name": "rail-chain-signal",
+                          "position": {
+                            "x": 20.5,
+                            "y": 15.5
+                          }
+                        },
+                        {
                           "entity_number": 126,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            122,
+                            130
+                          ],
                           "position": {
                             "x": 32,
                             "y": 16
                           }
                         },
                         {
-                          "direction": 7,
-                          "entity_number": 127,
-                          "name": "rail-signal",
-                          "position": {
-                            "x": 34.5,
-                            "y": 15.5
-                          }
-                        },
-                        {
                           "direction": 5,
-                          "entity_number": 128,
+                          "entity_number": 127,
                           "name": "straight-rail",
                           "position": {
                             "x": 37,
                             "y": 15
+                          }
+                        },
+                        {
+                          "direction": 7,
+                          "entity_number": 128,
+                          "name": "rail-signal",
+                          "position": {
+                            "x": 34.5,
+                            "y": 15.5
                           }
                         },
                         {
@@ -3268,6 +3334,10 @@
                         {
                           "entity_number": 130,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            126,
+                            131
+                          ],
                           "position": {
                             "x": 48,
                             "y": 16
@@ -3276,6 +3346,9 @@
                         {
                           "entity_number": 131,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            130
+                          ],
                           "position": {
                             "x": 64,
                             "y": 16
@@ -3290,16 +3363,8 @@
                           }
                         },
                         {
-                          "entity_number": 133,
-                          "name": "straight-rail",
-                          "position": {
-                            "x": 19,
-                            "y": 17
-                          }
-                        },
-                        {
                           "direction": 7,
-                          "entity_number": 134,
+                          "entity_number": 133,
                           "name": "straight-rail",
                           "position": {
                             "x": 21,
@@ -3307,21 +3372,29 @@
                           }
                         },
                         {
-                          "direction": 1,
-                          "entity_number": 135,
-                          "name": "rail-chain-signal",
+                          "entity_number": 134,
+                          "name": "straight-rail",
                           "position": {
-                            "x": 20.5,
-                            "y": 16.5
+                            "x": 19,
+                            "y": 17
                           }
                         },
                         {
                           "direction": 3,
-                          "entity_number": 136,
+                          "entity_number": 135,
                           "name": "straight-rail",
                           "position": {
                             "x": 21,
                             "y": 17
+                          }
+                        },
+                        {
+                          "direction": 1,
+                          "entity_number": 136,
+                          "name": "rail-chain-signal",
+                          "position": {
+                            "x": 20.5,
+                            "y": 16.5
                           }
                         },
                         {
@@ -3342,6 +3415,7 @@
                           }
                         },
                         {
+                          "direction": 3,
                           "entity_number": 139,
                           "name": "straight-rail",
                           "position": {
@@ -3350,7 +3424,6 @@
                           }
                         },
                         {
-                          "direction": 3,
                           "entity_number": 140,
                           "name": "straight-rail",
                           "position": {
@@ -3565,21 +3638,21 @@
                           }
                         },
                         {
-                          "direction": 1,
-                          "entity_number": 164,
-                          "name": "rail-signal",
-                          "position": {
-                            "x": 16.5,
-                            "y": 20.5
-                          }
-                        },
-                        {
                           "direction": 3,
-                          "entity_number": 165,
+                          "entity_number": 164,
                           "name": "straight-rail",
                           "position": {
                             "x": 17,
                             "y": 21
+                          }
+                        },
+                        {
+                          "direction": 1,
+                          "entity_number": 165,
+                          "name": "rail-signal",
+                          "position": {
+                            "x": 16.5,
+                            "y": 20.5
                           }
                         },
                         {
@@ -3591,21 +3664,21 @@
                           }
                         },
                         {
-                          "direction": 4,
-                          "entity_number": 167,
-                          "name": "rail-chain-signal",
-                          "position": {
-                            "x": 20.5,
-                            "y": 21.5
-                          }
-                        },
-                        {
                           "direction": 7,
-                          "entity_number": 168,
+                          "entity_number": 167,
                           "name": "straight-rail",
                           "position": {
                             "x": 23,
                             "y": 23
+                          }
+                        },
+                        {
+                          "direction": 4,
+                          "entity_number": 168,
+                          "name": "rail-chain-signal",
+                          "position": {
+                            "x": 20.5,
+                            "y": 21.5
                           }
                         },
                         {
@@ -3627,7 +3700,16 @@
                           }
                         },
                         {
+                          "direction": 1,
                           "entity_number": 171,
+                          "name": "curved-rail",
+                          "position": {
+                            "x": 14,
+                            "y": 26
+                          }
+                        },
+                        {
+                          "entity_number": 172,
                           "name": "straight-rail",
                           "position": {
                             "x": 13,
@@ -3636,28 +3718,19 @@
                         },
                         {
                           "direction": 1,
-                          "entity_number": 172,
-                          "name": "curved-rail",
-                          "position": {
-                            "x": 14,
-                            "y": 26
-                          }
-                        },
-                        {
                           "entity_number": 173,
-                          "name": "straight-rail",
-                          "position": {
-                            "x": 19,
-                            "y": 23
-                          }
-                        },
-                        {
-                          "direction": 1,
-                          "entity_number": 174,
                           "name": "curved-rail",
                           "position": {
                             "x": 20,
                             "y": 26
+                          }
+                        },
+                        {
+                          "entity_number": 174,
+                          "name": "straight-rail",
+                          "position": {
+                            "x": 19,
+                            "y": 23
                           }
                         },
                         {
@@ -3736,6 +3809,10 @@
                         {
                           "entity_number": 184,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            122,
+                            201
+                          ],
                           "position": {
                             "x": 16,
                             "y": 32
@@ -3872,6 +3949,10 @@
                         {
                           "entity_number": 201,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            184,
+                            219
+                          ],
                           "position": {
                             "x": 16,
                             "y": 48
@@ -4016,6 +4097,9 @@
                         {
                           "entity_number": 219,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            201
+                          ],
                           "position": {
                             "x": 16,
                             "y": 64
@@ -4045,7 +4129,7 @@
                         "x": 32,
                         "y": 32
                       },
-                      "version": 77311901696
+                      "version": 281479275544576
                     },
                     "index": 0
                   },
@@ -4089,6 +4173,9 @@
                         {
                           "entity_number": 5,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            22
+                          ],
                           "position": {
                             "x": 16,
                             "y": -32
@@ -4225,6 +4312,10 @@
                         {
                           "entity_number": 22,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            5,
+                            53
+                          ],
                           "position": {
                             "x": 16,
                             "y": -16
@@ -4271,16 +4362,7 @@
                           }
                         },
                         {
-                          "direction": 4,
                           "entity_number": 28,
-                          "name": "curved-rail",
-                          "position": {
-                            "x": 14,
-                            "y": -8
-                          }
-                        },
-                        {
-                          "entity_number": 29,
                           "name": "straight-rail",
                           "position": {
                             "x": 13,
@@ -4289,19 +4371,28 @@
                         },
                         {
                           "direction": 4,
-                          "entity_number": 30,
+                          "entity_number": 29,
                           "name": "curved-rail",
                           "position": {
-                            "x": 20,
+                            "x": 14,
                             "y": -8
                           }
                         },
                         {
-                          "entity_number": 31,
+                          "entity_number": 30,
                           "name": "straight-rail",
                           "position": {
                             "x": 19,
                             "y": -11
+                          }
+                        },
+                        {
+                          "direction": 4,
+                          "entity_number": 31,
+                          "name": "curved-rail",
+                          "position": {
+                            "x": 20,
+                            "y": -8
                           }
                         },
                         {
@@ -4414,8 +4505,17 @@
                           }
                         },
                         {
-                          "direction": 7,
+                          "direction": 5,
                           "entity_number": 45,
+                          "name": "straight-rail",
+                          "position": {
+                            "x": 19,
+                            "y": -3
+                          }
+                        },
+                        {
+                          "direction": 7,
+                          "entity_number": 46,
                           "name": "rail-chain-signal",
                           "position": {
                             "x": 16.5,
@@ -4423,8 +4523,7 @@
                           }
                         },
                         {
-                          "direction": 5,
-                          "entity_number": 46,
+                          "entity_number": 47,
                           "name": "straight-rail",
                           "position": {
                             "x": 19,
@@ -4433,19 +4532,11 @@
                         },
                         {
                           "direction": 1,
-                          "entity_number": 47,
-                          "name": "straight-rail",
-                          "position": {
-                            "x": 19,
-                            "y": -1
-                          }
-                        },
-                        {
                           "entity_number": 48,
                           "name": "straight-rail",
                           "position": {
                             "x": 19,
-                            "y": -3
+                            "y": -1
                           }
                         },
                         {
@@ -4486,25 +4577,29 @@
                         {
                           "entity_number": 53,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            22,
+                            179
+                          ],
                           "position": {
                             "x": 16,
                             "y": 0
                           }
                         },
                         {
-                          "direction": 5,
                           "entity_number": 54,
                           "name": "straight-rail",
                           "position": {
-                            "x": 21,
+                            "x": 19,
                             "y": -1
                           }
                         },
                         {
+                          "direction": 5,
                           "entity_number": 55,
                           "name": "straight-rail",
                           "position": {
-                            "x": 19,
+                            "x": 21,
                             "y": -1
                           }
                         },
@@ -4552,21 +4647,21 @@
                           }
                         },
                         {
-                          "direction": 4,
-                          "entity_number": 61,
-                          "name": "rail-chain-signal",
-                          "position": {
-                            "x": 20.5,
-                            "y": 1.5
-                          }
-                        },
-                        {
                           "direction": 5,
-                          "entity_number": 62,
+                          "entity_number": 61,
                           "name": "straight-rail",
                           "position": {
                             "x": 23,
                             "y": 1
+                          }
+                        },
+                        {
+                          "direction": 4,
+                          "entity_number": 62,
+                          "name": "rail-chain-signal",
+                          "position": {
+                            "x": 20.5,
+                            "y": 1.5
                           }
                         },
                         {
@@ -4807,20 +4902,20 @@
                           }
                         },
                         {
-                          "direction": 7,
                           "entity_number": 90,
-                          "name": "straight-rail",
-                          "position": {
-                            "x": 15,
-                            "y": 11
-                          }
-                        },
-                        {
-                          "entity_number": 91,
                           "name": "straight-rail",
                           "position": {
                             "x": 13,
                             "y": 9
+                          }
+                        },
+                        {
+                          "direction": 7,
+                          "entity_number": 91,
+                          "name": "straight-rail",
+                          "position": {
+                            "x": 15,
+                            "y": 11
                           }
                         },
                         {
@@ -4895,12 +4990,12 @@
                           }
                         },
                         {
-                          "direction": 2,
+                          "direction": 7,
                           "entity_number": 100,
-                          "name": "rail-signal",
+                          "name": "straight-rail",
                           "position": {
-                            "x": 10.5,
-                            "y": 11.5
+                            "x": 13,
+                            "y": 13
                           }
                         },
                         {
@@ -4912,16 +5007,15 @@
                           }
                         },
                         {
-                          "direction": 7,
+                          "direction": 2,
                           "entity_number": 102,
-                          "name": "straight-rail",
+                          "name": "rail-signal",
                           "position": {
-                            "x": 13,
-                            "y": 13
+                            "x": 10.5,
+                            "y": 11.5
                           }
                         },
                         {
-                          "direction": 3,
                           "entity_number": 103,
                           "name": "straight-rail",
                           "position": {
@@ -4930,6 +5024,7 @@
                           }
                         },
                         {
+                          "direction": 3,
                           "entity_number": 104,
                           "name": "straight-rail",
                           "position": {
@@ -4973,21 +5068,21 @@
                           }
                         },
                         {
-                          "direction": 7,
-                          "entity_number": 109,
-                          "name": "rail-chain-signal",
-                          "position": {
-                            "x": 30.5,
-                            "y": 11.5
-                          }
-                        },
-                        {
                           "direction": 5,
-                          "entity_number": 110,
+                          "entity_number": 109,
                           "name": "straight-rail",
                           "position": {
                             "x": 33,
                             "y": 11
+                          }
+                        },
+                        {
+                          "direction": 7,
+                          "entity_number": 110,
+                          "name": "rail-chain-signal",
+                          "position": {
+                            "x": 30.5,
+                            "y": 11.5
                           }
                         },
                         {
@@ -5126,21 +5221,21 @@
                           }
                         },
                         {
-                          "direction": 3,
-                          "entity_number": 126,
-                          "name": "curved-rail",
-                          "position": {
-                            "x": -8,
-                            "y": 14
-                          }
-                        },
-                        {
                           "direction": 2,
-                          "entity_number": 127,
+                          "entity_number": 126,
                           "name": "straight-rail",
                           "position": {
                             "x": -11,
                             "y": 13
+                          }
+                        },
+                        {
+                          "direction": 3,
+                          "entity_number": 127,
+                          "name": "curved-rail",
+                          "position": {
+                            "x": -8,
+                            "y": 14
                           }
                         },
                         {
@@ -5225,8 +5320,17 @@
                           }
                         },
                         {
-                          "direction": 7,
+                          "direction": 2,
                           "entity_number": 137,
+                          "name": "straight-rail",
+                          "position": {
+                            "x": 9,
+                            "y": 13
+                          }
+                        },
+                        {
+                          "direction": 7,
+                          "entity_number": 138,
                           "name": "straight-rail",
                           "position": {
                             "x": 11,
@@ -5235,15 +5339,6 @@
                         },
                         {
                           "direction": 2,
-                          "entity_number": 138,
-                          "name": "straight-rail",
-                          "position": {
-                            "x": 9,
-                            "y": 13
-                          }
-                        },
-                        {
-                          "direction": 3,
                           "entity_number": 139,
                           "name": "straight-rail",
                           "position": {
@@ -5252,7 +5347,7 @@
                           }
                         },
                         {
-                          "direction": 2,
+                          "direction": 3,
                           "entity_number": 140,
                           "name": "straight-rail",
                           "position": {
@@ -5261,6 +5356,7 @@
                           }
                         },
                         {
+                          "direction": 2,
                           "entity_number": 141,
                           "name": "straight-rail",
                           "position": {
@@ -5269,7 +5365,6 @@
                           }
                         },
                         {
-                          "direction": 2,
                           "entity_number": 142,
                           "name": "straight-rail",
                           "position": {
@@ -5296,6 +5391,7 @@
                           }
                         },
                         {
+                          "direction": 2,
                           "entity_number": 145,
                           "name": "straight-rail",
                           "position": {
@@ -5304,7 +5400,6 @@
                           }
                         },
                         {
-                          "direction": 2,
                           "entity_number": 146,
                           "name": "straight-rail",
                           "position": {
@@ -5322,21 +5417,21 @@
                           }
                         },
                         {
-                          "direction": 6,
-                          "entity_number": 148,
-                          "name": "curved-rail",
-                          "position": {
-                            "x": 26,
-                            "y": 14
-                          }
-                        },
-                        {
                           "direction": 2,
-                          "entity_number": 149,
+                          "entity_number": 148,
                           "name": "straight-rail",
                           "position": {
                             "x": 23,
                             "y": 13
+                          }
+                        },
+                        {
+                          "direction": 6,
+                          "entity_number": 149,
+                          "name": "curved-rail",
+                          "position": {
+                            "x": 26,
+                            "y": 14
                           }
                         },
                         {
@@ -5376,17 +5471,8 @@
                           }
                         },
                         {
-                          "direction": 5,
-                          "entity_number": 154,
-                          "name": "straight-rail",
-                          "position": {
-                            "x": 35,
-                            "y": 13
-                          }
-                        },
-                        {
                           "direction": 2,
-                          "entity_number": 155,
+                          "entity_number": 154,
                           "name": "straight-rail",
                           "position": {
                             "x": 33,
@@ -5394,21 +5480,30 @@
                           }
                         },
                         {
-                          "direction": 1,
-                          "entity_number": 156,
-                          "name": "straight-rail",
-                          "position": {
-                            "x": 35,
-                            "y": 15
-                          }
-                        },
-                        {
-                          "direction": 2,
-                          "entity_number": 157,
+                          "direction": 5,
+                          "entity_number": 155,
                           "name": "straight-rail",
                           "position": {
                             "x": 35,
                             "y": 13
+                          }
+                        },
+                        {
+                          "direction": 2,
+                          "entity_number": 156,
+                          "name": "straight-rail",
+                          "position": {
+                            "x": 35,
+                            "y": 13
+                          }
+                        },
+                        {
+                          "direction": 1,
+                          "entity_number": 157,
+                          "name": "straight-rail",
+                          "position": {
+                            "x": 35,
+                            "y": 15
                           }
                         },
                         {
@@ -5540,6 +5635,9 @@
                         {
                           "entity_number": 172,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            173
+                          ],
                           "position": {
                             "x": -32,
                             "y": 16
@@ -5548,6 +5646,10 @@
                         {
                           "entity_number": 173,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            172,
+                            175
+                          ],
                           "position": {
                             "x": -16,
                             "y": 16
@@ -5565,6 +5667,10 @@
                         {
                           "entity_number": 175,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            173,
+                            179
+                          ],
                           "position": {
                             "x": 0,
                             "y": 16
@@ -5599,6 +5705,12 @@
                         {
                           "entity_number": 179,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            53,
+                            175,
+                            184,
+                            309
+                          ],
                           "position": {
                             "x": 16,
                             "y": 16
@@ -5613,12 +5725,12 @@
                           }
                         },
                         {
-                          "direction": 1,
+                          "direction": 7,
                           "entity_number": 181,
-                          "name": "rail-chain-signal",
+                          "name": "straight-rail",
                           "position": {
-                            "x": 21.5,
-                            "y": 15.5
+                            "x": 23,
+                            "y": 17
                           }
                         },
                         {
@@ -5631,38 +5743,42 @@
                           }
                         },
                         {
-                          "direction": 7,
+                          "direction": 1,
                           "entity_number": 183,
-                          "name": "straight-rail",
+                          "name": "rail-chain-signal",
                           "position": {
-                            "x": 23,
-                            "y": 17
+                            "x": 21.5,
+                            "y": 15.5
                           }
                         },
                         {
                           "entity_number": 184,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            179,
+                            188
+                          ],
                           "position": {
                             "x": 32,
                             "y": 16
                           }
                         },
                         {
-                          "direction": 7,
-                          "entity_number": 185,
-                          "name": "rail-signal",
-                          "position": {
-                            "x": 34.5,
-                            "y": 15.5
-                          }
-                        },
-                        {
                           "direction": 5,
-                          "entity_number": 186,
+                          "entity_number": 185,
                           "name": "straight-rail",
                           "position": {
                             "x": 37,
                             "y": 15
+                          }
+                        },
+                        {
+                          "direction": 7,
+                          "entity_number": 186,
+                          "name": "rail-signal",
+                          "position": {
+                            "x": 34.5,
+                            "y": 15.5
                           }
                         },
                         {
@@ -5677,6 +5793,10 @@
                         {
                           "entity_number": 188,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            184,
+                            189
+                          ],
                           "position": {
                             "x": 48,
                             "y": 16
@@ -5685,6 +5805,9 @@
                         {
                           "entity_number": 189,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            188
+                          ],
                           "position": {
                             "x": 64,
                             "y": 16
@@ -5700,17 +5823,8 @@
                           }
                         },
                         {
-                          "direction": 3,
-                          "entity_number": 191,
-                          "name": "rail-signal",
-                          "position": {
-                            "x": -2.5,
-                            "y": 16.5
-                          }
-                        },
-                        {
                           "direction": 1,
-                          "entity_number": 192,
+                          "entity_number": 191,
                           "name": "straight-rail",
                           "position": {
                             "x": -3,
@@ -5718,19 +5832,28 @@
                           }
                         },
                         {
-                          "entity_number": 193,
-                          "name": "rail-chain-signal",
+                          "direction": 3,
+                          "entity_number": 192,
+                          "name": "rail-signal",
                           "position": {
-                            "x": 11.5,
+                            "x": -2.5,
                             "y": 16.5
                           }
                         },
                         {
                           "direction": 5,
-                          "entity_number": 194,
+                          "entity_number": 193,
                           "name": "rail-chain-signal",
                           "position": {
                             "x": 10.5,
+                            "y": 16.5
+                          }
+                        },
+                        {
+                          "entity_number": 194,
+                          "name": "rail-chain-signal",
+                          "position": {
+                            "x": 11.5,
                             "y": 16.5
                           }
                         },
@@ -5743,20 +5866,20 @@
                           }
                         },
                         {
-                          "direction": 7,
                           "entity_number": 196,
-                          "name": "straight-rail",
-                          "position": {
-                            "x": 21,
-                            "y": 19
-                          }
-                        },
-                        {
-                          "entity_number": 197,
                           "name": "straight-rail",
                           "position": {
                             "x": 19,
                             "y": 17
+                          }
+                        },
+                        {
+                          "direction": 7,
+                          "entity_number": 197,
+                          "name": "straight-rail",
+                          "position": {
+                            "x": 21,
+                            "y": 19
                           }
                         },
                         {
@@ -5859,21 +5982,21 @@
                           }
                         },
                         {
-                          "direction": 3,
-                          "entity_number": 209,
-                          "name": "curved-rail",
-                          "position": {
-                            "x": -8,
-                            "y": 20
-                          }
-                        },
-                        {
                           "direction": 2,
-                          "entity_number": 210,
+                          "entity_number": 209,
                           "name": "straight-rail",
                           "position": {
                             "x": -11,
                             "y": 19
+                          }
+                        },
+                        {
+                          "direction": 3,
+                          "entity_number": 210,
+                          "name": "curved-rail",
+                          "position": {
+                            "x": -8,
+                            "y": 20
                           }
                         },
                         {
@@ -5904,17 +6027,8 @@
                           }
                         },
                         {
-                          "direction": 5,
-                          "entity_number": 214,
-                          "name": "straight-rail",
-                          "position": {
-                            "x": -1,
-                            "y": 19
-                          }
-                        },
-                        {
                           "direction": 2,
-                          "entity_number": 215,
+                          "entity_number": 214,
                           "name": "straight-rail",
                           "position": {
                             "x": -3,
@@ -5922,21 +6036,30 @@
                           }
                         },
                         {
-                          "direction": 1,
-                          "entity_number": 216,
-                          "name": "straight-rail",
-                          "position": {
-                            "x": -1,
-                            "y": 21
-                          }
-                        },
-                        {
-                          "direction": 2,
-                          "entity_number": 217,
+                          "direction": 5,
+                          "entity_number": 215,
                           "name": "straight-rail",
                           "position": {
                             "x": -1,
                             "y": 19
+                          }
+                        },
+                        {
+                          "direction": 2,
+                          "entity_number": 216,
+                          "name": "straight-rail",
+                          "position": {
+                            "x": -1,
+                            "y": 19
+                          }
+                        },
+                        {
+                          "direction": 1,
+                          "entity_number": 217,
+                          "name": "straight-rail",
+                          "position": {
+                            "x": -1,
+                            "y": 21
                           }
                         },
                         {
@@ -5994,6 +6117,7 @@
                           }
                         },
                         {
+                          "direction": 2,
                           "entity_number": 224,
                           "name": "straight-rail",
                           "position": {
@@ -6002,7 +6126,6 @@
                           }
                         },
                         {
-                          "direction": 2,
                           "entity_number": 225,
                           "name": "straight-rail",
                           "position": {
@@ -6020,8 +6143,17 @@
                           }
                         },
                         {
-                          "direction": 7,
+                          "direction": 2,
                           "entity_number": 227,
+                          "name": "straight-rail",
+                          "position": {
+                            "x": 17,
+                            "y": 19
+                          }
+                        },
+                        {
+                          "direction": 7,
+                          "entity_number": 228,
                           "name": "straight-rail",
                           "position": {
                             "x": 19,
@@ -6030,15 +6162,6 @@
                         },
                         {
                           "direction": 2,
-                          "entity_number": 228,
-                          "name": "straight-rail",
-                          "position": {
-                            "x": 17,
-                            "y": 19
-                          }
-                        },
-                        {
-                          "direction": 3,
                           "entity_number": 229,
                           "name": "straight-rail",
                           "position": {
@@ -6055,7 +6178,7 @@
                           }
                         },
                         {
-                          "direction": 2,
+                          "direction": 3,
                           "entity_number": 231,
                           "name": "straight-rail",
                           "position": {
@@ -6073,21 +6196,21 @@
                           }
                         },
                         {
-                          "direction": 6,
-                          "entity_number": 233,
-                          "name": "curved-rail",
-                          "position": {
-                            "x": 26,
-                            "y": 20
-                          }
-                        },
-                        {
                           "direction": 2,
-                          "entity_number": 234,
+                          "entity_number": 233,
                           "name": "straight-rail",
                           "position": {
                             "x": 23,
                             "y": 19
+                          }
+                        },
+                        {
+                          "direction": 6,
+                          "entity_number": 234,
+                          "name": "curved-rail",
+                          "position": {
+                            "x": 26,
+                            "y": 20
                           }
                         },
                         {
@@ -6325,21 +6448,21 @@
                           }
                         },
                         {
-                          "direction": 3,
-                          "entity_number": 261,
-                          "name": "rail-chain-signal",
-                          "position": {
-                            "x": 1.5,
-                            "y": 20.5
-                          }
-                        },
-                        {
                           "direction": 1,
-                          "entity_number": 262,
+                          "entity_number": 261,
                           "name": "straight-rail",
                           "position": {
                             "x": 1,
                             "y": 23
+                          }
+                        },
+                        {
+                          "direction": 3,
+                          "entity_number": 262,
+                          "name": "rail-chain-signal",
+                          "position": {
+                            "x": 1.5,
+                            "y": 20.5
                           }
                         },
                         {
@@ -6360,17 +6483,8 @@
                           }
                         },
                         {
-                          "direction": 6,
-                          "entity_number": 265,
-                          "name": "rail-chain-signal",
-                          "position": {
-                            "x": 15.5,
-                            "y": 20.5
-                          }
-                        },
-                        {
                           "direction": 7,
-                          "entity_number": 266,
+                          "entity_number": 265,
                           "name": "straight-rail",
                           "position": {
                             "x": 17,
@@ -6378,21 +6492,30 @@
                           }
                         },
                         {
-                          "direction": 1,
-                          "entity_number": 267,
+                          "direction": 6,
+                          "entity_number": 266,
                           "name": "rail-chain-signal",
                           "position": {
-                            "x": 16.5,
+                            "x": 15.5,
                             "y": 20.5
                           }
                         },
                         {
                           "direction": 3,
-                          "entity_number": 268,
+                          "entity_number": 267,
                           "name": "straight-rail",
                           "position": {
                             "x": 17,
                             "y": 21
+                          }
+                        },
+                        {
+                          "direction": 1,
+                          "entity_number": 268,
+                          "name": "rail-chain-signal",
+                          "position": {
+                            "x": 16.5,
+                            "y": 20.5
                           }
                         },
                         {
@@ -6404,12 +6527,12 @@
                           }
                         },
                         {
-                          "direction": 6,
+                          "direction": 7,
                           "entity_number": 270,
-                          "name": "rail-signal",
+                          "name": "straight-rail",
                           "position": {
-                            "x": 21.5,
-                            "y": 20.5
+                            "x": 23,
+                            "y": 23
                           }
                         },
                         {
@@ -6422,12 +6545,12 @@
                           }
                         },
                         {
-                          "direction": 7,
+                          "direction": 6,
                           "entity_number": 272,
-                          "name": "straight-rail",
+                          "name": "rail-signal",
                           "position": {
-                            "x": 23,
-                            "y": 23
+                            "x": 21.5,
+                            "y": 20.5
                           }
                         },
                         {
@@ -6485,16 +6608,7 @@
                           }
                         },
                         {
-                          "direction": 1,
                           "entity_number": 279,
-                          "name": "curved-rail",
-                          "position": {
-                            "x": 14,
-                            "y": 26
-                          }
-                        },
-                        {
-                          "entity_number": 280,
                           "name": "straight-rail",
                           "position": {
                             "x": 13,
@@ -6503,19 +6617,28 @@
                         },
                         {
                           "direction": 1,
-                          "entity_number": 281,
+                          "entity_number": 280,
                           "name": "curved-rail",
                           "position": {
-                            "x": 20,
+                            "x": 14,
                             "y": 26
                           }
                         },
                         {
-                          "entity_number": 282,
+                          "entity_number": 281,
                           "name": "straight-rail",
                           "position": {
                             "x": 19,
                             "y": 23
+                          }
+                        },
+                        {
+                          "direction": 1,
+                          "entity_number": 282,
+                          "name": "curved-rail",
+                          "position": {
+                            "x": 20,
+                            "y": 26
                           }
                         },
                         {
@@ -6720,20 +6843,20 @@
                           }
                         },
                         {
-                          "entity_number": 306,
-                          "name": "rail-chain-signal",
-                          "position": {
-                            "x": 11.5,
-                            "y": 30.5
-                          }
-                        },
-                        {
                           "direction": 1,
-                          "entity_number": 307,
+                          "entity_number": 306,
                           "name": "straight-rail",
                           "position": {
                             "x": 11,
                             "y": 33
+                          }
+                        },
+                        {
+                          "entity_number": 307,
+                          "name": "rail-chain-signal",
+                          "position": {
+                            "x": 11.5,
+                            "y": 30.5
                           }
                         },
                         {
@@ -6747,6 +6870,10 @@
                         {
                           "entity_number": 309,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            179,
+                            340
+                          ],
                           "position": {
                             "x": 16,
                             "y": 32
@@ -6788,20 +6915,20 @@
                           }
                         },
                         {
-                          "direction": 1,
                           "entity_number": 314,
                           "name": "straight-rail",
                           "position": {
                             "x": 13,
-                            "y": 35
+                            "y": 33
                           }
                         },
                         {
+                          "direction": 1,
                           "entity_number": 315,
                           "name": "straight-rail",
                           "position": {
                             "x": 13,
-                            "y": 33
+                            "y": 35
                           }
                         },
                         {
@@ -6839,16 +6966,7 @@
                           }
                         },
                         {
-                          "direction": 5,
                           "entity_number": 320,
-                          "name": "straight-rail",
-                          "position": {
-                            "x": 15,
-                            "y": 35
-                          }
-                        },
-                        {
-                          "entity_number": 321,
                           "name": "straight-rail",
                           "position": {
                             "x": 13,
@@ -6856,21 +6974,30 @@
                           }
                         },
                         {
-                          "direction": 3,
-                          "entity_number": 322,
-                          "name": "rail-chain-signal",
+                          "direction": 5,
+                          "entity_number": 321,
+                          "name": "straight-rail",
                           "position": {
-                            "x": 15.5,
-                            "y": 34.5
+                            "x": 15,
+                            "y": 35
                           }
                         },
                         {
                           "direction": 1,
-                          "entity_number": 323,
+                          "entity_number": 322,
                           "name": "straight-rail",
                           "position": {
                             "x": 15,
                             "y": 37
+                          }
+                        },
+                        {
+                          "direction": 3,
+                          "entity_number": 323,
+                          "name": "rail-chain-signal",
+                          "position": {
+                            "x": 15.5,
+                            "y": 34.5
                           }
                         },
                         {
@@ -7006,6 +7133,10 @@
                         {
                           "entity_number": 340,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            309,
+                            357
+                          ],
                           "position": {
                             "x": 16,
                             "y": 48
@@ -7142,6 +7273,9 @@
                         {
                           "entity_number": 357,
                           "name": "big-electric-pole",
+                          "neighbours": [
+                            340
+                          ],
                           "position": {
                             "x": 16,
                             "y": 64
@@ -7211,14 +7345,14 @@
                         "x": 32,
                         "y": 32
                       },
-                      "version": 77311901696
+                      "version": 281479275544576
                     },
                     "index": 1
                   }
                 ],
                 "item": "blueprint-book",
                 "label": "Intersections",
-                "version": 77311901696
+                "version": 281479275544576
               },
               "index": 3
             },
@@ -7300,6 +7434,9 @@
                   {
                     "entity_number": 9,
                     "name": "big-electric-pole",
+                    "neighbours": [
+                      10
+                    ],
                     "position": {
                       "x": 0,
                       "y": 16
@@ -7308,6 +7445,9 @@
                   {
                     "entity_number": 10,
                     "name": "big-electric-pole",
+                    "neighbours": [
+                      9
+                    ],
                     "position": {
                       "x": 16,
                       "y": 16
@@ -7401,7 +7541,7 @@
                   "x": 32,
                   "y": 32
                 },
-                "version": 77311901696
+                "version": 281479275544576
               },
               "index": 4
             },
@@ -8023,6 +8163,9 @@
                   {
                     "entity_number": 69,
                     "name": "big-electric-pole",
+                    "neighbours": [
+                      73
+                    ],
                     "position": {
                       "x": 0,
                       "y": 16
@@ -8058,6 +8201,10 @@
                   {
                     "entity_number": 73,
                     "name": "big-electric-pole",
+                    "neighbours": [
+                      69,
+                      74
+                    ],
                     "position": {
                       "x": 16,
                       "y": 16
@@ -8066,6 +8213,10 @@
                   {
                     "entity_number": 74,
                     "name": "big-electric-pole",
+                    "neighbours": [
+                      73,
+                      75
+                    ],
                     "position": {
                       "x": 32,
                       "y": 16
@@ -8074,6 +8225,10 @@
                   {
                     "entity_number": 75,
                     "name": "big-electric-pole",
+                    "neighbours": [
+                      74,
+                      77
+                    ],
                     "position": {
                       "x": 48,
                       "y": 16
@@ -8091,6 +8246,9 @@
                   {
                     "entity_number": 77,
                     "name": "big-electric-pole",
+                    "neighbours": [
+                      75
+                    ],
                     "position": {
                       "x": 64,
                       "y": 16
@@ -8723,14 +8881,14 @@
                   "x": 32,
                   "y": 32
                 },
-                "version": 77311901696
+                "version": 281479275544576
               },
               "index": 5
             }
           ],
           "item": "blueprint-book",
           "label": "Chunk-Aligned",
-          "version": 77311901696
+          "version": 281479275544576
         },
         "index": 0
       },
@@ -8746,8 +8904,8 @@
                     "entity_number": 1,
                     "name": "curved-rail",
                     "position": {
-                      "x": 290,
-                      "y": -370
+                      "x": 2,
+                      "y": -4
                     }
                   },
                   {
@@ -8755,8 +8913,8 @@
                     "entity_number": 2,
                     "name": "curved-rail",
                     "position": {
-                      "x": 328,
-                      "y": -370
+                      "x": 40,
+                      "y": -4
                     }
                   },
                   {
@@ -8764,8 +8922,8 @@
                     "entity_number": 3,
                     "name": "straight-rail",
                     "position": {
-                      "x": 293,
-                      "y": -367
+                      "x": 5,
+                      "y": -1
                     }
                   },
                   {
@@ -8773,8 +8931,8 @@
                     "entity_number": 4,
                     "name": "curved-rail",
                     "position": {
-                      "x": 296,
-                      "y": -364
+                      "x": 8,
+                      "y": 2
                     }
                   },
                   {
@@ -8782,8 +8940,8 @@
                     "entity_number": 5,
                     "name": "curved-rail",
                     "position": {
-                      "x": 322,
-                      "y": -364
+                      "x": 34,
+                      "y": 2
                     }
                   },
                   {
@@ -8791,8 +8949,8 @@
                     "entity_number": 6,
                     "name": "straight-rail",
                     "position": {
-                      "x": 325,
-                      "y": -367
+                      "x": 37,
+                      "y": -1
                     }
                   },
                   {
@@ -8800,8 +8958,8 @@
                     "entity_number": 7,
                     "name": "rail-signal",
                     "position": {
-                      "x": 291.5,
-                      "y": -365.5
+                      "x": 3.5,
+                      "y": 0.5
                     }
                   },
                   {
@@ -8809,8 +8967,8 @@
                     "entity_number": 8,
                     "name": "rail-signal",
                     "position": {
-                      "x": 326.5,
-                      "y": -365.5
+                      "x": 38.5,
+                      "y": 0.5
                     }
                   },
                   {
@@ -8818,8 +8976,8 @@
                     "entity_number": 9,
                     "name": "straight-rail",
                     "position": {
-                      "x": 301,
-                      "y": -363
+                      "x": 13,
+                      "y": 3
                     }
                   },
                   {
@@ -8827,8 +8985,8 @@
                     "entity_number": 10,
                     "name": "straight-rail",
                     "position": {
-                      "x": 303,
-                      "y": -363
+                      "x": 15,
+                      "y": 3
                     }
                   },
                   {
@@ -8836,8 +8994,8 @@
                     "entity_number": 11,
                     "name": "straight-rail",
                     "position": {
-                      "x": 305,
-                      "y": -363
+                      "x": 17,
+                      "y": 3
                     }
                   },
                   {
@@ -8845,8 +9003,8 @@
                     "entity_number": 12,
                     "name": "straight-rail",
                     "position": {
-                      "x": 307,
-                      "y": -363
+                      "x": 19,
+                      "y": 3
                     }
                   },
                   {
@@ -8854,8 +9012,8 @@
                     "entity_number": 13,
                     "name": "straight-rail",
                     "position": {
-                      "x": 309,
-                      "y": -363
+                      "x": 21,
+                      "y": 3
                     }
                   },
                   {
@@ -8863,8 +9021,8 @@
                     "entity_number": 14,
                     "name": "straight-rail",
                     "position": {
-                      "x": 311,
-                      "y": -363
+                      "x": 23,
+                      "y": 3
                     }
                   },
                   {
@@ -8872,8 +9030,8 @@
                     "entity_number": 15,
                     "name": "straight-rail",
                     "position": {
-                      "x": 313,
-                      "y": -363
+                      "x": 25,
+                      "y": 3
                     }
                   },
                   {
@@ -8881,8 +9039,8 @@
                     "entity_number": 16,
                     "name": "straight-rail",
                     "position": {
-                      "x": 315,
-                      "y": -363
+                      "x": 27,
+                      "y": 3
                     }
                   },
                   {
@@ -8890,8 +9048,8 @@
                     "entity_number": 17,
                     "name": "straight-rail",
                     "position": {
-                      "x": 317,
-                      "y": -363
+                      "x": 29,
+                      "y": 3
                     }
                   }
                 ],
@@ -8905,12 +9063,12 @@
                   }
                 ],
                 "item": "blueprint",
-                "label": "A",
+                "label": "C1",
                 "snap-to-grid": {
                   "x": 42,
                   "y": 4
                 },
-                "version": 77311901696
+                "version": 281479275544576
               },
               "index": 0
             },
@@ -8922,8 +9080,8 @@
                     "entity_number": 1,
                     "name": "curved-rail",
                     "position": {
-                      "x": 290,
-                      "y": -344
+                      "x": 2,
+                      "y": -4
                     }
                   },
                   {
@@ -8931,8 +9089,8 @@
                     "entity_number": 2,
                     "name": "curved-rail",
                     "position": {
-                      "x": 328,
-                      "y": -344
+                      "x": 40,
+                      "y": -4
                     }
                   },
                   {
@@ -8940,8 +9098,8 @@
                     "entity_number": 3,
                     "name": "rail-signal",
                     "position": {
-                      "x": 292.5,
-                      "y": -342.5
+                      "x": 4.5,
+                      "y": -2.5
                     }
                   },
                   {
@@ -8949,8 +9107,8 @@
                     "entity_number": 4,
                     "name": "rail-signal",
                     "position": {
-                      "x": 325.5,
-                      "y": -342.5
+                      "x": 37.5,
+                      "y": -2.5
                     }
                   },
                   {
@@ -8958,8 +9116,8 @@
                     "entity_number": 5,
                     "name": "straight-rail",
                     "position": {
-                      "x": 293,
-                      "y": -341
+                      "x": 5,
+                      "y": -1
                     }
                   },
                   {
@@ -8967,8 +9125,8 @@
                     "entity_number": 6,
                     "name": "curved-rail",
                     "position": {
-                      "x": 296,
-                      "y": -338
+                      "x": 8,
+                      "y": 2
                     }
                   },
                   {
@@ -8976,8 +9134,8 @@
                     "entity_number": 7,
                     "name": "curved-rail",
                     "position": {
-                      "x": 322,
-                      "y": -338
+                      "x": 34,
+                      "y": 2
                     }
                   },
                   {
@@ -8985,8 +9143,8 @@
                     "entity_number": 8,
                     "name": "straight-rail",
                     "position": {
-                      "x": 325,
-                      "y": -341
+                      "x": 37,
+                      "y": -1
                     }
                   },
                   {
@@ -8994,8 +9152,8 @@
                     "entity_number": 9,
                     "name": "straight-rail",
                     "position": {
-                      "x": 301,
-                      "y": -337
+                      "x": 13,
+                      "y": 3
                     }
                   },
                   {
@@ -9003,8 +9161,8 @@
                     "entity_number": 10,
                     "name": "straight-rail",
                     "position": {
-                      "x": 303,
-                      "y": -337
+                      "x": 15,
+                      "y": 3
                     }
                   },
                   {
@@ -9012,8 +9170,8 @@
                     "entity_number": 11,
                     "name": "straight-rail",
                     "position": {
-                      "x": 305,
-                      "y": -337
+                      "x": 17,
+                      "y": 3
                     }
                   },
                   {
@@ -9021,8 +9179,8 @@
                     "entity_number": 12,
                     "name": "straight-rail",
                     "position": {
-                      "x": 307,
-                      "y": -337
+                      "x": 19,
+                      "y": 3
                     }
                   },
                   {
@@ -9030,8 +9188,8 @@
                     "entity_number": 13,
                     "name": "straight-rail",
                     "position": {
-                      "x": 309,
-                      "y": -337
+                      "x": 21,
+                      "y": 3
                     }
                   },
                   {
@@ -9039,8 +9197,8 @@
                     "entity_number": 14,
                     "name": "straight-rail",
                     "position": {
-                      "x": 311,
-                      "y": -337
+                      "x": 23,
+                      "y": 3
                     }
                   },
                   {
@@ -9048,8 +9206,8 @@
                     "entity_number": 15,
                     "name": "straight-rail",
                     "position": {
-                      "x": 313,
-                      "y": -337
+                      "x": 25,
+                      "y": 3
                     }
                   },
                   {
@@ -9057,8 +9215,8 @@
                     "entity_number": 16,
                     "name": "straight-rail",
                     "position": {
-                      "x": 315,
-                      "y": -337
+                      "x": 27,
+                      "y": 3
                     }
                   },
                   {
@@ -9066,8 +9224,8 @@
                     "entity_number": 17,
                     "name": "straight-rail",
                     "position": {
-                      "x": 317,
-                      "y": -337
+                      "x": 29,
+                      "y": 3
                     }
                   }
                 ],
@@ -9081,12 +9239,12 @@
                   }
                 ],
                 "item": "blueprint",
-                "label": "B",
+                "label": "C2",
                 "snap-to-grid": {
                   "x": 42,
                   "y": 4
                 },
-                "version": 77311901696
+                "version": 281479275544576
               },
               "index": 1
             },
@@ -9098,8 +9256,8 @@
                     "entity_number": 1,
                     "name": "curved-rail",
                     "position": {
-                      "x": 328,
-                      "y": -316
+                      "x": 40,
+                      "y": -4
                     }
                   },
                   {
@@ -9107,8 +9265,8 @@
                     "entity_number": 2,
                     "name": "rail-signal",
                     "position": {
-                      "x": 325.5,
-                      "y": -314.5
+                      "x": 37.5,
+                      "y": -2.5
                     }
                   },
                   {
@@ -9116,8 +9274,8 @@
                     "entity_number": 3,
                     "name": "curved-rail",
                     "position": {
-                      "x": 322,
-                      "y": -310
+                      "x": 34,
+                      "y": 2
                     }
                   },
                   {
@@ -9125,8 +9283,8 @@
                     "entity_number": 4,
                     "name": "straight-rail",
                     "position": {
-                      "x": 325,
-                      "y": -313
+                      "x": 37,
+                      "y": -1
                     }
                   },
                   {
@@ -9134,8 +9292,8 @@
                     "entity_number": 5,
                     "name": "curved-rail",
                     "position": {
-                      "x": 296,
-                      "y": -308
+                      "x": 8,
+                      "y": 4
                     }
                   },
                   {
@@ -9143,8 +9301,8 @@
                     "entity_number": 6,
                     "name": "straight-rail",
                     "position": {
-                      "x": 301,
-                      "y": -309
+                      "x": 13,
+                      "y": 3
                     }
                   },
                   {
@@ -9152,8 +9310,8 @@
                     "entity_number": 7,
                     "name": "straight-rail",
                     "position": {
-                      "x": 303,
-                      "y": -309
+                      "x": 15,
+                      "y": 3
                     }
                   },
                   {
@@ -9161,8 +9319,8 @@
                     "entity_number": 8,
                     "name": "straight-rail",
                     "position": {
-                      "x": 305,
-                      "y": -309
+                      "x": 17,
+                      "y": 3
                     }
                   },
                   {
@@ -9170,8 +9328,8 @@
                     "entity_number": 9,
                     "name": "straight-rail",
                     "position": {
-                      "x": 307,
-                      "y": -309
+                      "x": 19,
+                      "y": 3
                     }
                   },
                   {
@@ -9179,8 +9337,8 @@
                     "entity_number": 10,
                     "name": "straight-rail",
                     "position": {
-                      "x": 309,
-                      "y": -309
+                      "x": 21,
+                      "y": 3
                     }
                   },
                   {
@@ -9188,8 +9346,8 @@
                     "entity_number": 11,
                     "name": "straight-rail",
                     "position": {
-                      "x": 311,
-                      "y": -309
+                      "x": 23,
+                      "y": 3
                     }
                   },
                   {
@@ -9197,8 +9355,8 @@
                     "entity_number": 12,
                     "name": "straight-rail",
                     "position": {
-                      "x": 313,
-                      "y": -309
+                      "x": 25,
+                      "y": 3
                     }
                   },
                   {
@@ -9206,8 +9364,8 @@
                     "entity_number": 13,
                     "name": "straight-rail",
                     "position": {
-                      "x": 315,
-                      "y": -309
+                      "x": 27,
+                      "y": 3
                     }
                   },
                   {
@@ -9215,8 +9373,8 @@
                     "entity_number": 14,
                     "name": "straight-rail",
                     "position": {
-                      "x": 317,
-                      "y": -309
+                      "x": 29,
+                      "y": 3
                     }
                   },
                   {
@@ -9224,8 +9382,8 @@
                     "entity_number": 15,
                     "name": "rail-signal",
                     "position": {
-                      "x": 291.5,
-                      "y": -306.5
+                      "x": 3.5,
+                      "y": 5.5
                     }
                   },
                   {
@@ -9233,8 +9391,8 @@
                     "entity_number": 16,
                     "name": "straight-rail",
                     "position": {
-                      "x": 293,
-                      "y": -305
+                      "x": 5,
+                      "y": 7
                     }
                   },
                   {
@@ -9242,8 +9400,8 @@
                     "entity_number": 17,
                     "name": "curved-rail",
                     "position": {
-                      "x": 290,
-                      "y": -302
+                      "x": 2,
+                      "y": 10
                     }
                   }
                 ],
@@ -9257,12 +9415,12 @@
                   }
                 ],
                 "item": "blueprint",
-                "label": "C",
+                "label": "S1",
                 "snap-to-grid": {
                   "x": 42,
                   "y": 4
                 },
-                "version": 77311901696
+                "version": 281479275544576
               },
               "index": 2
             },
@@ -9274,8 +9432,8 @@
                     "entity_number": 1,
                     "name": "curved-rail",
                     "position": {
-                      "x": 290,
-                      "y": -292
+                      "x": 2,
+                      "y": -4
                     }
                   },
                   {
@@ -9283,8 +9441,8 @@
                     "entity_number": 2,
                     "name": "rail-signal",
                     "position": {
-                      "x": 292.5,
-                      "y": -290.5
+                      "x": 4.5,
+                      "y": -2.5
                     }
                   },
                   {
@@ -9292,8 +9450,8 @@
                     "entity_number": 3,
                     "name": "straight-rail",
                     "position": {
-                      "x": 293,
-                      "y": -289
+                      "x": 5,
+                      "y": -1
                     }
                   },
                   {
@@ -9301,8 +9459,8 @@
                     "entity_number": 4,
                     "name": "curved-rail",
                     "position": {
-                      "x": 296,
-                      "y": -286
+                      "x": 8,
+                      "y": 2
                     }
                   },
                   {
@@ -9310,8 +9468,8 @@
                     "entity_number": 5,
                     "name": "straight-rail",
                     "position": {
-                      "x": 301,
-                      "y": -285
+                      "x": 13,
+                      "y": 3
                     }
                   },
                   {
@@ -9319,8 +9477,8 @@
                     "entity_number": 6,
                     "name": "straight-rail",
                     "position": {
-                      "x": 303,
-                      "y": -285
+                      "x": 15,
+                      "y": 3
                     }
                   },
                   {
@@ -9328,8 +9486,8 @@
                     "entity_number": 7,
                     "name": "straight-rail",
                     "position": {
-                      "x": 305,
-                      "y": -285
+                      "x": 17,
+                      "y": 3
                     }
                   },
                   {
@@ -9337,8 +9495,8 @@
                     "entity_number": 8,
                     "name": "straight-rail",
                     "position": {
-                      "x": 307,
-                      "y": -285
+                      "x": 19,
+                      "y": 3
                     }
                   },
                   {
@@ -9346,8 +9504,8 @@
                     "entity_number": 9,
                     "name": "straight-rail",
                     "position": {
-                      "x": 309,
-                      "y": -285
+                      "x": 21,
+                      "y": 3
                     }
                   },
                   {
@@ -9355,8 +9513,8 @@
                     "entity_number": 10,
                     "name": "straight-rail",
                     "position": {
-                      "x": 311,
-                      "y": -285
+                      "x": 23,
+                      "y": 3
                     }
                   },
                   {
@@ -9364,8 +9522,8 @@
                     "entity_number": 11,
                     "name": "straight-rail",
                     "position": {
-                      "x": 313,
-                      "y": -285
+                      "x": 25,
+                      "y": 3
                     }
                   },
                   {
@@ -9373,8 +9531,8 @@
                     "entity_number": 12,
                     "name": "straight-rail",
                     "position": {
-                      "x": 315,
-                      "y": -285
+                      "x": 27,
+                      "y": 3
                     }
                   },
                   {
@@ -9382,8 +9540,8 @@
                     "entity_number": 13,
                     "name": "straight-rail",
                     "position": {
-                      "x": 317,
-                      "y": -285
+                      "x": 29,
+                      "y": 3
                     }
                   },
                   {
@@ -9391,8 +9549,8 @@
                     "entity_number": 14,
                     "name": "curved-rail",
                     "position": {
-                      "x": 322,
-                      "y": -284
+                      "x": 34,
+                      "y": 4
                     }
                   },
                   {
@@ -9400,8 +9558,8 @@
                     "entity_number": 15,
                     "name": "straight-rail",
                     "position": {
-                      "x": 325,
-                      "y": -281
+                      "x": 37,
+                      "y": 7
                     }
                   },
                   {
@@ -9409,16 +9567,16 @@
                     "entity_number": 16,
                     "name": "rail-signal",
                     "position": {
-                      "x": 326.5,
-                      "y": -282.5
+                      "x": 38.5,
+                      "y": 5.5
                     }
                   },
                   {
                     "entity_number": 17,
                     "name": "curved-rail",
                     "position": {
-                      "x": 328,
-                      "y": -278
+                      "x": 40,
+                      "y": 10
                     }
                   }
                 ],
@@ -9432,1887 +9590,938 @@
                   }
                 ],
                 "item": "blueprint",
-                "label": "D",
+                "label": "S2",
                 "snap-to-grid": {
                   "x": 42,
                   "y": 4
                 },
-                "version": 77311901696
+                "version": 281479275544576
               },
               "index": 3
             }
           ],
           "item": "blueprint-book",
           "label": "Stackers",
-          "version": 77311901696
+          "version": 281479275544576
         },
         "index": 1
       },
       {
-        "blueprint_book": {
-          "active_index": 0,
-          "blueprints": [
+        "blueprint": {
+          "entities": [
             {
-              "blueprint": {
-                "entities": [
-                  {
-                    "entity_number": 1,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -8.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 2,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -8.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "entity_number": 3,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -7.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "entity_number": 4,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -6.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 5,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -6.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 6,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -7.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "entity_number": 7,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -5.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "entity_number": 8,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -4.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 9,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -4.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 10,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -5.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "entity_number": 11,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -3.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "entity_number": 12,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -2.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 13,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -2.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 14,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -3.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "entity_number": 15,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -1.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "entity_number": 16,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -0.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 17,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -0.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 18,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -1.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "entity_number": 19,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 0.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "entity_number": 20,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 1.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 21,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 1.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 22,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 0.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "entity_number": 23,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 2.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "entity_number": 24,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 3.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 25,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 3.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 26,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 2.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "entity_number": 27,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 4.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "entity_number": 28,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 5.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 29,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 5.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 30,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 4.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "entity_number": 31,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 6.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "entity_number": 32,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 7.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 33,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 7.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 34,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 6.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "entity_number": 35,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 8.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 36,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 9.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "entity_number": 37,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 9.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 38,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 8.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "entity_number": 39,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 11.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 40,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 11.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 41,
-                    "name": "fast-underground-belt",
-                    "position": {
-                      "x": 10.5,
-                      "y": 4.5
-                    },
-                    "type": "input"
-                  },
-                  {
-                    "entity_number": 42,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 12.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "entity_number": 43,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 13.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 44,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 13.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 45,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 12.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "entity_number": 46,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 14.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "entity_number": 47,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 15.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 48,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 15.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 49,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 14.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "entity_number": 50,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 16.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 51,
-                    "name": "fast-underground-belt",
-                    "position": {
-                      "x": 17.5,
-                      "y": 4.5
-                    },
-                    "type": "output"
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 52,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 17.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 53,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 16.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 54,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 18.5,
-                      "y": 5.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 55,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 18.5,
-                      "y": 4.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 56,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -6.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 57,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -4.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 58,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -5.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 59,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -2.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 60,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -2.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 61,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -3.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 62,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -0.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 63,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -0.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 64,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -1.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 65,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 1.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 66,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 1.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 67,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 0.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 68,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 0.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 69,
-                    "name": "fast-underground-belt",
-                    "position": {
-                      "x": 3.5,
-                      "y": 6.5
-                    },
-                    "type": "input"
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 70,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 3.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 71,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 2.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 72,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 2.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 73,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 5.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 74,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 5.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 75,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 4.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 76,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 7.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 77,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 7.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 78,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 6.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 79,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 6.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "entity_number": 80,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 9.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 81,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 9.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 82,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 8.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 83,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 8.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 84,
-                    "name": "fast-underground-belt",
-                    "position": {
-                      "x": 10.5,
-                      "y": 6.5
-                    },
-                    "type": "output"
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 85,
-                    "name": "fast-underground-belt",
-                    "position": {
-                      "x": 11.5,
-                      "y": 6.5
-                    },
-                    "type": "input"
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 86,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 11.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 87,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 10.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 88,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 13.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 89,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 13.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 90,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 12.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 91,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 15.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 92,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 15.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 93,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 14.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 94,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 14.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "entity_number": 95,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 17.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 96,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 17.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 97,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 16.5,
-                      "y": 6.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 98,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 16.5,
-                      "y": 7.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 99,
-                    "name": "fast-underground-belt",
-                    "position": {
-                      "x": 18.5,
-                      "y": 6.5
-                    },
-                    "type": "output"
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 100,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 18.5,
-                      "y": 7.5
-                    }
-                  }
-                ],
-                "icons": [
-                  {
-                    "index": 1,
-                    "signal": {
-                      "name": "stack-inserter",
-                      "type": "item"
-                    }
-                  },
-                  {
-                    "index": 2,
-                    "signal": {
-                      "name": "stack-inserter",
-                      "type": "item"
-                    }
-                  },
-                  {
-                    "index": 3,
-                    "signal": {
-                      "name": "transport-belt",
-                      "type": "item"
-                    }
-                  },
-                  {
-                    "index": 4,
-                    "signal": {
-                      "name": "transport-belt",
-                      "type": "item"
-                    }
-                  }
-                ],
-                "item": "blueprint",
-                "label": "A",
-                "version": 77311901696
-              },
-              "index": 0
+              "entity_number": 1,
+              "name": "stack-inserter",
+              "position": {
+                "x": -8.5,
+                "y": 4.5
+              }
             },
             {
-              "blueprint": {
-                "entities": [
-                  {
-                    "direction": 2,
-                    "entity_number": 1,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -6.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 2,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -4.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 3,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -5.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 4,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -2.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "entity_number": 5,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -2.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 6,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -3.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 7,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -0.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 8,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -1.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 9,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -0.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 10,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 1.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 11,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 0.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 12,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 1.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 13,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 0.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 14,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 3.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 15,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 2.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 16,
-                    "name": "fast-underground-belt",
-                    "position": {
-                      "x": 3.5,
-                      "y": -0.5
-                    },
-                    "type": "input"
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 17,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 2.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 18,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 5.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 19,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 4.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 20,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 5.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 21,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 7.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 22,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 6.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 23,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 7.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 24,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 6.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 25,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 9.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 26,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 8.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 27,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 9.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 28,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 8.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 29,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 11.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 30,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 10.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 31,
-                    "name": "fast-underground-belt",
-                    "position": {
-                      "x": 11.5,
-                      "y": -0.5
-                    },
-                    "type": "input"
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 32,
-                    "name": "fast-underground-belt",
-                    "position": {
-                      "x": 10.5,
-                      "y": -0.5
-                    },
-                    "type": "output"
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 33,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 13.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 34,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 12.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 35,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 13.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 36,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 15.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 37,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 14.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 38,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 15.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 39,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 14.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 40,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 17.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 41,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 16.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 42,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 17.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 43,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 16.5,
-                      "y": -0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 44,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 18.5,
-                      "y": -1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 45,
-                    "name": "fast-underground-belt",
-                    "position": {
-                      "x": 18.5,
-                      "y": -0.5
-                    },
-                    "type": "output"
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 46,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -8.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 47,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -8.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 48,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -7.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "entity_number": 49,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -6.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 50,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -7.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 51,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -6.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 52,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -5.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 53,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -4.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 54,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -5.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 55,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -4.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "entity_number": 56,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -3.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 57,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -2.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 58,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -3.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 59,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -2.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 60,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -1.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "entity_number": 61,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": -0.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 62,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -1.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 63,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": -0.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 64,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 0.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 65,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 1.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 66,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 0.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 67,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 1.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "entity_number": 68,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 2.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 69,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 3.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 70,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 2.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 71,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 3.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "entity_number": 72,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 5.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 73,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 4.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 74,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 4.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 75,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 5.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 76,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 7.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 77,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 6.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 78,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 6.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 79,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 7.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 80,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 9.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 81,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 9.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "entity_number": 82,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 8.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 83,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 8.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 84,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 11.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 85,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 11.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 86,
-                    "name": "fast-underground-belt",
-                    "position": {
-                      "x": 10.5,
-                      "y": 1.5
-                    },
-                    "type": "input"
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 87,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 12.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "entity_number": 88,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 13.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 89,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 12.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 90,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 13.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 91,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 14.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 92,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 15.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 93,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 14.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 94,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 15.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 95,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 17.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "entity_number": 96,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 16.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 97,
-                    "name": "fast-underground-belt",
-                    "position": {
-                      "x": 17.5,
-                      "y": 1.5
-                    },
-                    "type": "output"
-                  },
-                  {
-                    "direction": 4,
-                    "entity_number": 98,
-                    "name": "stack-inserter",
-                    "position": {
-                      "x": 16.5,
-                      "y": 1.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 99,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 18.5,
-                      "y": 0.5
-                    }
-                  },
-                  {
-                    "direction": 2,
-                    "entity_number": 100,
-                    "name": "transport-belt",
-                    "position": {
-                      "x": 18.5,
-                      "y": 1.5
-                    }
-                  }
-                ],
-                "icons": [
-                  {
-                    "index": 1,
-                    "signal": {
-                      "name": "stack-inserter",
-                      "type": "item"
-                    }
-                  },
-                  {
-                    "index": 2,
-                    "signal": {
-                      "name": "stack-inserter",
-                      "type": "item"
-                    }
-                  },
-                  {
-                    "index": 3,
-                    "signal": {
-                      "name": "transport-belt",
-                      "type": "item"
-                    }
-                  },
-                  {
-                    "index": 4,
-                    "signal": {
-                      "name": "transport-belt",
-                      "type": "item"
-                    }
-                  }
-                ],
-                "item": "blueprint",
-                "label": "B",
-                "version": 77311901696
+              "direction": 2,
+              "entity_number": 2,
+              "name": "transport-belt",
+              "position": {
+                "x": -8.5,
+                "y": 5.5
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "stack-inserter",
+              "position": {
+                "x": -7.5,
+                "y": 4.5
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "stack-inserter",
+              "position": {
+                "x": -6.5,
+                "y": 4.5
+              }
+            },
+            {
+              "direction": 4,
+              "entity_number": 5,
+              "name": "transport-belt",
+              "position": {
+                "x": -6.5,
+                "y": 5.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 6,
+              "name": "transport-belt",
+              "position": {
+                "x": -7.5,
+                "y": 5.5
+              }
+            },
+            {
+              "entity_number": 7,
+              "name": "stack-inserter",
+              "position": {
+                "x": -5.5,
+                "y": 4.5
+              }
+            },
+            {
+              "entity_number": 8,
+              "name": "stack-inserter",
+              "position": {
+                "x": -4.5,
+                "y": 4.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 9,
+              "name": "transport-belt",
+              "position": {
+                "x": -4.5,
+                "y": 5.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 10,
+              "name": "transport-belt",
+              "position": {
+                "x": -5.5,
+                "y": 5.5
+              }
+            },
+            {
+              "entity_number": 11,
+              "name": "stack-inserter",
+              "position": {
+                "x": -3.5,
+                "y": 4.5
+              }
+            },
+            {
+              "entity_number": 12,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2.5,
+                "y": 4.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 13,
+              "name": "transport-belt",
+              "position": {
+                "x": -2.5,
+                "y": 5.5
+              }
+            },
+            {
+              "direction": 4,
+              "entity_number": 14,
+              "name": "transport-belt",
+              "position": {
+                "x": -3.5,
+                "y": 5.5
+              }
+            },
+            {
+              "entity_number": 15,
+              "name": "stack-inserter",
+              "position": {
+                "x": -1.5,
+                "y": 4.5
+              }
+            },
+            {
+              "entity_number": 16,
+              "name": "stack-inserter",
+              "position": {
+                "x": -0.5,
+                "y": 4.5
+              }
+            },
+            {
+              "direction": 4,
+              "entity_number": 17,
+              "name": "transport-belt",
+              "position": {
+                "x": -0.5,
+                "y": 5.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 18,
+              "name": "transport-belt",
+              "position": {
+                "x": -1.5,
+                "y": 5.5
+              }
+            },
+            {
+              "entity_number": 19,
+              "name": "stack-inserter",
+              "position": {
+                "x": 0.5,
+                "y": 4.5
+              }
+            },
+            {
+              "entity_number": 20,
+              "name": "stack-inserter",
+              "position": {
+                "x": 1.5,
+                "y": 4.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 21,
+              "name": "transport-belt",
+              "position": {
+                "x": 1.5,
+                "y": 5.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 22,
+              "name": "transport-belt",
+              "position": {
+                "x": 0.5,
+                "y": 5.5
+              }
+            },
+            {
+              "entity_number": 23,
+              "name": "stack-inserter",
+              "position": {
+                "x": 2.5,
+                "y": 4.5
+              }
+            },
+            {
+              "entity_number": 24,
+              "name": "stack-inserter",
+              "position": {
+                "x": 3.5,
+                "y": 4.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 25,
+              "name": "transport-belt",
+              "position": {
+                "x": 3.5,
+                "y": 5.5
+              }
+            },
+            {
+              "direction": 4,
+              "entity_number": 26,
+              "name": "transport-belt",
+              "position": {
+                "x": 2.5,
+                "y": 5.5
+              }
+            },
+            {
+              "entity_number": 27,
+              "name": "stack-inserter",
+              "position": {
+                "x": 4.5,
+                "y": 4.5
+              }
+            },
+            {
+              "entity_number": 28,
+              "name": "stack-inserter",
+              "position": {
+                "x": 5.5,
+                "y": 4.5
+              }
+            },
+            {
+              "direction": 4,
+              "entity_number": 29,
+              "name": "transport-belt",
+              "position": {
+                "x": 5.5,
+                "y": 5.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 30,
+              "name": "transport-belt",
+              "position": {
+                "x": 4.5,
+                "y": 5.5
+              }
+            },
+            {
+              "entity_number": 31,
+              "name": "stack-inserter",
+              "position": {
+                "x": 6.5,
+                "y": 4.5
+              }
+            },
+            {
+              "entity_number": 32,
+              "name": "stack-inserter",
+              "position": {
+                "x": 7.5,
+                "y": 4.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 33,
+              "name": "transport-belt",
+              "position": {
+                "x": 7.5,
+                "y": 5.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 34,
+              "name": "transport-belt",
+              "position": {
+                "x": 6.5,
+                "y": 5.5
+              }
+            },
+            {
+              "entity_number": 35,
+              "name": "stack-inserter",
+              "position": {
+                "x": 8.5,
+                "y": 4.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 36,
+              "name": "transport-belt",
+              "position": {
+                "x": 9.5,
+                "y": 4.5
+              }
+            },
+            {
+              "entity_number": 37,
+              "name": "transport-belt",
+              "position": {
+                "x": 9.5,
+                "y": 5.5
+              }
+            },
+            {
+              "direction": 4,
+              "entity_number": 38,
+              "name": "transport-belt",
+              "position": {
+                "x": 8.5,
+                "y": 5.5
+              }
+            },
+            {
+              "entity_number": 39,
+              "name": "stack-inserter",
+              "position": {
+                "x": 11.5,
+                "y": 4.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 40,
+              "name": "transport-belt",
+              "position": {
+                "x": 11.5,
+                "y": 5.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 41,
+              "name": "fast-underground-belt",
+              "position": {
+                "x": 10.5,
+                "y": 4.5
               },
-              "index": 1
+              "type": "input"
+            },
+            {
+              "entity_number": 42,
+              "name": "stack-inserter",
+              "position": {
+                "x": 12.5,
+                "y": 4.5
+              }
+            },
+            {
+              "entity_number": 43,
+              "name": "stack-inserter",
+              "position": {
+                "x": 13.5,
+                "y": 4.5
+              }
+            },
+            {
+              "direction": 4,
+              "entity_number": 44,
+              "name": "transport-belt",
+              "position": {
+                "x": 13.5,
+                "y": 5.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 45,
+              "name": "transport-belt",
+              "position": {
+                "x": 12.5,
+                "y": 5.5
+              }
+            },
+            {
+              "entity_number": 46,
+              "name": "stack-inserter",
+              "position": {
+                "x": 14.5,
+                "y": 4.5
+              }
+            },
+            {
+              "entity_number": 47,
+              "name": "stack-inserter",
+              "position": {
+                "x": 15.5,
+                "y": 4.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 48,
+              "name": "transport-belt",
+              "position": {
+                "x": 15.5,
+                "y": 5.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 49,
+              "name": "transport-belt",
+              "position": {
+                "x": 14.5,
+                "y": 5.5
+              }
+            },
+            {
+              "entity_number": 50,
+              "name": "stack-inserter",
+              "position": {
+                "x": 16.5,
+                "y": 4.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 51,
+              "name": "fast-underground-belt",
+              "position": {
+                "x": 17.5,
+                "y": 4.5
+              },
+              "type": "output"
+            },
+            {
+              "direction": 2,
+              "entity_number": 52,
+              "name": "transport-belt",
+              "position": {
+                "x": 17.5,
+                "y": 5.5
+              }
+            },
+            {
+              "direction": 4,
+              "entity_number": 53,
+              "name": "transport-belt",
+              "position": {
+                "x": 16.5,
+                "y": 5.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 54,
+              "name": "transport-belt",
+              "position": {
+                "x": 18.5,
+                "y": 5.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 55,
+              "name": "transport-belt",
+              "position": {
+                "x": 18.5,
+                "y": 4.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 56,
+              "name": "transport-belt",
+              "position": {
+                "x": -6.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 57,
+              "name": "transport-belt",
+              "position": {
+                "x": -4.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 58,
+              "name": "transport-belt",
+              "position": {
+                "x": -5.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 59,
+              "name": "transport-belt",
+              "position": {
+                "x": -2.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 4,
+              "entity_number": 60,
+              "name": "transport-belt",
+              "position": {
+                "x": -2.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 61,
+              "name": "transport-belt",
+              "position": {
+                "x": -3.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 62,
+              "name": "transport-belt",
+              "position": {
+                "x": -0.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 63,
+              "name": "transport-belt",
+              "position": {
+                "x": -0.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 64,
+              "name": "transport-belt",
+              "position": {
+                "x": -1.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 65,
+              "name": "transport-belt",
+              "position": {
+                "x": 1.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 66,
+              "name": "transport-belt",
+              "position": {
+                "x": 1.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 67,
+              "name": "transport-belt",
+              "position": {
+                "x": 0.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 68,
+              "name": "transport-belt",
+              "position": {
+                "x": 0.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 69,
+              "name": "fast-underground-belt",
+              "position": {
+                "x": 3.5,
+                "y": 6.5
+              },
+              "type": "input"
+            },
+            {
+              "direction": 2,
+              "entity_number": 70,
+              "name": "transport-belt",
+              "position": {
+                "x": 3.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 71,
+              "name": "transport-belt",
+              "position": {
+                "x": 2.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 72,
+              "name": "transport-belt",
+              "position": {
+                "x": 2.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 73,
+              "name": "transport-belt",
+              "position": {
+                "x": 5.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 74,
+              "name": "transport-belt",
+              "position": {
+                "x": 5.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 75,
+              "name": "transport-belt",
+              "position": {
+                "x": 4.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 76,
+              "name": "transport-belt",
+              "position": {
+                "x": 7.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 77,
+              "name": "transport-belt",
+              "position": {
+                "x": 7.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 78,
+              "name": "transport-belt",
+              "position": {
+                "x": 6.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 79,
+              "name": "transport-belt",
+              "position": {
+                "x": 6.5,
+                "y": 7.5
+              }
+            },
+            {
+              "entity_number": 80,
+              "name": "transport-belt",
+              "position": {
+                "x": 9.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 81,
+              "name": "transport-belt",
+              "position": {
+                "x": 9.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 82,
+              "name": "transport-belt",
+              "position": {
+                "x": 8.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 83,
+              "name": "transport-belt",
+              "position": {
+                "x": 8.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 84,
+              "name": "fast-underground-belt",
+              "position": {
+                "x": 10.5,
+                "y": 6.5
+              },
+              "type": "output"
+            },
+            {
+              "direction": 2,
+              "entity_number": 85,
+              "name": "fast-underground-belt",
+              "position": {
+                "x": 11.5,
+                "y": 6.5
+              },
+              "type": "input"
+            },
+            {
+              "direction": 2,
+              "entity_number": 86,
+              "name": "transport-belt",
+              "position": {
+                "x": 11.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 87,
+              "name": "transport-belt",
+              "position": {
+                "x": 10.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 88,
+              "name": "transport-belt",
+              "position": {
+                "x": 13.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 89,
+              "name": "transport-belt",
+              "position": {
+                "x": 13.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 90,
+              "name": "transport-belt",
+              "position": {
+                "x": 12.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 91,
+              "name": "transport-belt",
+              "position": {
+                "x": 15.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 92,
+              "name": "transport-belt",
+              "position": {
+                "x": 15.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 93,
+              "name": "transport-belt",
+              "position": {
+                "x": 14.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 94,
+              "name": "transport-belt",
+              "position": {
+                "x": 14.5,
+                "y": 7.5
+              }
+            },
+            {
+              "entity_number": 95,
+              "name": "transport-belt",
+              "position": {
+                "x": 17.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 96,
+              "name": "transport-belt",
+              "position": {
+                "x": 17.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 97,
+              "name": "transport-belt",
+              "position": {
+                "x": 16.5,
+                "y": 6.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 98,
+              "name": "transport-belt",
+              "position": {
+                "x": 16.5,
+                "y": 7.5
+              }
+            },
+            {
+              "direction": 2,
+              "entity_number": 99,
+              "name": "fast-underground-belt",
+              "position": {
+                "x": 18.5,
+                "y": 6.5
+              },
+              "type": "output"
+            },
+            {
+              "direction": 2,
+              "entity_number": 100,
+              "name": "transport-belt",
+              "position": {
+                "x": 18.5,
+                "y": 7.5
+              }
             }
           ],
-          "description": "For use with the Merging Chests mod.",
-          "item": "blueprint-book",
-          "label": "Unloaders",
-          "version": 77311901696
+          "icons": [
+            {
+              "index": 1,
+              "signal": {
+                "name": "stack-inserter",
+                "type": "item"
+              }
+            },
+            {
+              "index": 2,
+              "signal": {
+                "name": "stack-inserter",
+                "type": "item"
+              }
+            },
+            {
+              "index": 3,
+              "signal": {
+                "name": "transport-belt",
+                "type": "item"
+              }
+            },
+            {
+              "index": 4,
+              "signal": {
+                "name": "transport-belt",
+                "type": "item"
+              }
+            }
+          ],
+          "item": "blueprint",
+          "label": "Unloader",
+          "version": 281479275544576
         },
         "index": 2
       },
@@ -11332,7 +10541,7 @@
               }
             ]
           },
-          "version": 77311901696
+          "version": 281479275544576
         },
         "index": 3
       }
@@ -11348,6 +10557,6 @@
     ],
     "item": "blueprint-book",
     "label": "Railway [1-4, RHD]",
-    "version": 77311901696
+    "version": 281479275544576
   }
 }
