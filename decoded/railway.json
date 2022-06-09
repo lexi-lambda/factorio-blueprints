@@ -10544,6 +10544,5573 @@
           "version": 281479275544576
         },
         "index": 3
+      },
+      {
+        "blueprint_book": {
+          "active_index": 0,
+          "blueprints": [
+            {
+              "blueprint": {
+                "entities": [
+                  {
+                    "color": {
+                      "a": 0.49803921580314636,
+                      "b": 1,
+                      "g": 0,
+                      "r": 0.4313725531101227
+                    },
+                    "entity_number": 1,
+                    "name": "locomotive",
+                    "orientation": 0,
+                    "position": {
+                      "x": -15,
+                      "y": -16
+                    }
+                  },
+                  {
+                    "entity_number": 2,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": -15,
+                      "y": -19
+                    }
+                  },
+                  {
+                    "color": {
+                      "a": 0.49803921580314636,
+                      "b": 1,
+                      "g": 0,
+                      "r": 0.4313725531101227
+                    },
+                    "entity_number": 3,
+                    "name": "train-stop",
+                    "position": {
+                      "x": -13,
+                      "y": -19
+                    },
+                    "station": ""
+                  },
+                  {
+                    "entity_number": 4,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": -15,
+                      "y": -17
+                    }
+                  },
+                  {
+                    "entity_number": 5,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": -15,
+                      "y": -15
+                    }
+                  },
+                  {
+                    "entity_number": 6,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": -15,
+                      "y": -13
+                    }
+                  },
+                  {
+                    "entity_number": 7,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": -17.5,
+                      "y": -10.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 150,
+                        "index": 1,
+                        "name": "big-electric-pole"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 8,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": -16.5,
+                      "y": -10.5
+                    }
+                  },
+                  {
+                    "entity_number": 9,
+                    "inventory": {
+                      "bar": 30,
+                      "filters": [
+                        {
+                          "index": 1,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 2,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 3,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 4,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 5,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 6,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 7,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 8,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 9,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 10,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 11,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 12,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 13,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 14,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 15,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 16,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 17,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 18,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 19,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 20,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 21,
+                          "name": "big-electric-pole"
+                        },
+                        {
+                          "index": 22,
+                          "name": "big-electric-pole"
+                        },
+                        {
+                          "index": 23,
+                          "name": "big-electric-pole"
+                        },
+                        {
+                          "index": 24,
+                          "name": "rail-signal"
+                        },
+                        {
+                          "index": 25,
+                          "name": "rail-signal"
+                        },
+                        {
+                          "index": 26,
+                          "name": "rail-signal"
+                        },
+                        {
+                          "index": 27,
+                          "name": "rail-chain-signal"
+                        },
+                        {
+                          "index": 28,
+                          "name": "rail-chain-signal"
+                        },
+                        {
+                          "index": 29,
+                          "name": "poison-capsule"
+                        },
+                        {
+                          "index": 30,
+                          "name": "poison-capsule"
+                        },
+                        {
+                          "index": 31,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 32,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 33,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 34,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 35,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 36,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 37,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 38,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 39,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 40,
+                          "name": "deconstruction-planner"
+                        }
+                      ]
+                    },
+                    "name": "cargo-wagon",
+                    "orientation": 0,
+                    "position": {
+                      "x": -15,
+                      "y": -9
+                    }
+                  },
+                  {
+                    "entity_number": 10,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": -15,
+                      "y": -11
+                    }
+                  },
+                  {
+                    "entity_number": 11,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": -12.5,
+                      "y": -10.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "rail"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 12,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": -12.5,
+                      "y": -11.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "rail"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 13,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": -13.5,
+                      "y": -11.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 14,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": -13.5,
+                      "y": -10.5
+                    }
+                  },
+                  {
+                    "entity_number": 15,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": -17.5,
+                      "y": -9.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 150,
+                        "index": 1,
+                        "name": "rail-signal"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 16,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": -17.5,
+                      "y": -8.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 100,
+                        "index": 1,
+                        "name": "rail-chain-signal"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 17,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": -16.5,
+                      "y": -9.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 18,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": -16.5,
+                      "y": -8.5
+                    }
+                  },
+                  {
+                    "entity_number": 19,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": -15,
+                      "y": -9
+                    }
+                  },
+                  {
+                    "entity_number": 20,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": -12.5,
+                      "y": -8.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "rail"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 21,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": -12.5,
+                      "y": -9.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "rail"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 22,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": -13.5,
+                      "y": -9.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 23,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": -13.5,
+                      "y": -8.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 24,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": -16.5,
+                      "y": -7.5
+                    }
+                  },
+                  {
+                    "entity_number": 25,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": -17.5,
+                      "y": -7.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 200,
+                        "index": 1,
+                        "name": "poison-capsule"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 26,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": -15,
+                      "y": -7
+                    }
+                  },
+                  {
+                    "entity_number": 27,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": -12.5,
+                      "y": -6.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "rail"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 28,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": -12.5,
+                      "y": -7.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "rail"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 29,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": -13.5,
+                      "y": -7.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 30,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": -13.5,
+                      "y": -6.5
+                    }
+                  },
+                  {
+                    "entity_number": 31,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": -15,
+                      "y": -5
+                    }
+                  }
+                ],
+                "icons": [
+                  {
+                    "index": 1,
+                    "signal": {
+                      "name": "rail",
+                      "type": "item"
+                    }
+                  }
+                ],
+                "item": "blueprint",
+                "label": "Expansion (Peaceful)",
+                "schedules": [
+                  {
+                    "locomotives": [
+                      1
+                    ],
+                    "schedule": [
+                      {
+                        "station": "MAIN - SUPPLY - Expansion",
+                        "wait_conditions": [
+                          {
+                            "compare_type": "or",
+                            "type": "full"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "version": 281479275544576
+              },
+              "index": 0
+            },
+            {
+              "blueprint": {
+                "entities": [
+                  {
+                    "color": {
+                      "a": 0.49803921580314636,
+                      "b": 1,
+                      "g": 0,
+                      "r": 0.4313725531101227
+                    },
+                    "entity_number": 1,
+                    "name": "locomotive",
+                    "orientation": 0,
+                    "position": {
+                      "x": 227,
+                      "y": 60
+                    }
+                  },
+                  {
+                    "entity_number": 2,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 227,
+                      "y": 57
+                    }
+                  },
+                  {
+                    "color": {
+                      "a": 0.49803921580314636,
+                      "b": 1,
+                      "g": 0,
+                      "r": 0.4313725531101227
+                    },
+                    "entity_number": 3,
+                    "name": "train-stop",
+                    "position": {
+                      "x": 229,
+                      "y": 57
+                    },
+                    "station": ""
+                  },
+                  {
+                    "entity_number": 4,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 227,
+                      "y": 59
+                    }
+                  },
+                  {
+                    "entity_number": 5,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 227,
+                      "y": 61
+                    }
+                  },
+                  {
+                    "entity_number": 6,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 227,
+                      "y": 63
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 7,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 225.5,
+                      "y": 65.5
+                    }
+                  },
+                  {
+                    "entity_number": 8,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 224.5,
+                      "y": 65.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 150,
+                        "index": 1,
+                        "name": "big-electric-pole"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 9,
+                    "inventory": {
+                      "bar": 28,
+                      "filters": [
+                        {
+                          "index": 1,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 2,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 3,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 4,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 5,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 6,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 7,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 8,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 9,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 10,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 11,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 12,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 13,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 14,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 15,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 16,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 17,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 18,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 19,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 20,
+                          "name": "rail"
+                        },
+                        {
+                          "index": 21,
+                          "name": "big-electric-pole"
+                        },
+                        {
+                          "index": 22,
+                          "name": "big-electric-pole"
+                        },
+                        {
+                          "index": 23,
+                          "name": "big-electric-pole"
+                        },
+                        {
+                          "index": 24,
+                          "name": "rail-signal"
+                        },
+                        {
+                          "index": 25,
+                          "name": "rail-signal"
+                        },
+                        {
+                          "index": 26,
+                          "name": "rail-signal"
+                        },
+                        {
+                          "index": 27,
+                          "name": "rail-chain-signal"
+                        },
+                        {
+                          "index": 28,
+                          "name": "rail-chain-signal"
+                        },
+                        {
+                          "index": 29,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 30,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 31,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 32,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 33,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 34,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 35,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 36,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 37,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 38,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 39,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 40,
+                          "name": "deconstruction-planner"
+                        }
+                      ]
+                    },
+                    "name": "cargo-wagon",
+                    "orientation": 0,
+                    "position": {
+                      "x": 227,
+                      "y": 67
+                    }
+                  },
+                  {
+                    "entity_number": 10,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 227,
+                      "y": 65
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 11,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 228.5,
+                      "y": 65.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 12,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 228.5,
+                      "y": 64.5
+                    }
+                  },
+                  {
+                    "entity_number": 13,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 229.5,
+                      "y": 64.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "rail"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 14,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 229.5,
+                      "y": 65.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "rail"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 15,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 225.5,
+                      "y": 67.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 16,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 225.5,
+                      "y": 66.5
+                    }
+                  },
+                  {
+                    "entity_number": 17,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 224.5,
+                      "y": 67.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 100,
+                        "index": 1,
+                        "name": "rail-chain-signal"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 18,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 224.5,
+                      "y": 66.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 150,
+                        "index": 1,
+                        "name": "rail-signal"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 19,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 227,
+                      "y": 67
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 20,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 228.5,
+                      "y": 67.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 21,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 228.5,
+                      "y": 66.5
+                    }
+                  },
+                  {
+                    "entity_number": 22,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 229.5,
+                      "y": 66.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "rail"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 23,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 229.5,
+                      "y": 67.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "rail"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 24,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 227,
+                      "y": 69
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 25,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 228.5,
+                      "y": 69.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 26,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 228.5,
+                      "y": 68.5
+                    }
+                  },
+                  {
+                    "entity_number": 27,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 229.5,
+                      "y": 68.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "rail"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 28,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 229.5,
+                      "y": 69.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "rail"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 29,
+                    "inventory": {
+                      "bar": 14,
+                      "filters": [
+                        {
+                          "index": 1,
+                          "name": "atomic-bomb"
+                        },
+                        {
+                          "index": 2,
+                          "name": "atomic-bomb"
+                        },
+                        {
+                          "index": 3,
+                          "name": "atomic-bomb"
+                        },
+                        {
+                          "index": 4,
+                          "name": "poison-capsule"
+                        },
+                        {
+                          "index": 5,
+                          "name": "poison-capsule"
+                        },
+                        {
+                          "index": 6,
+                          "name": "uranium-rounds-magazine"
+                        },
+                        {
+                          "index": 7,
+                          "name": "uranium-rounds-magazine"
+                        },
+                        {
+                          "index": 8,
+                          "name": "destroyer-capsule"
+                        },
+                        {
+                          "index": 9,
+                          "name": "destroyer-capsule"
+                        },
+                        {
+                          "index": 10,
+                          "name": "destroyer-capsule"
+                        },
+                        {
+                          "index": 11,
+                          "name": "atomic-bomb"
+                        },
+                        {
+                          "index": 12,
+                          "name": "atomic-bomb"
+                        },
+                        {
+                          "index": 13,
+                          "name": "atomic-bomb"
+                        },
+                        {
+                          "index": 14,
+                          "name": "repair-pack"
+                        },
+                        {
+                          "index": 15,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 16,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 17,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 18,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 19,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 20,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 21,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 22,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 23,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 24,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 25,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 26,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 27,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 28,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 29,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 30,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 31,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 32,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 33,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 34,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 35,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 36,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 37,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 38,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 39,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 40,
+                          "name": "deconstruction-planner"
+                        }
+                      ]
+                    },
+                    "name": "cargo-wagon",
+                    "orientation": 0,
+                    "position": {
+                      "x": 227,
+                      "y": 74
+                    }
+                  },
+                  {
+                    "entity_number": 30,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 227,
+                      "y": 71
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 31,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 228.5,
+                      "y": 71.5
+                    }
+                  },
+                  {
+                    "entity_number": 32,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 229.5,
+                      "y": 71.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 60,
+                        "index": 1,
+                        "name": "atomic-bomb"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 33,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 227,
+                      "y": 73
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 34,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 228.5,
+                      "y": 73.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 35,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 228.5,
+                      "y": 72.5
+                    }
+                  },
+                  {
+                    "entity_number": 36,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 229.5,
+                      "y": 73.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 400,
+                        "index": 1,
+                        "name": "uranium-rounds-magazine"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 37,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 229.5,
+                      "y": 72.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 200,
+                        "index": 1,
+                        "name": "poison-capsule"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 38,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 227,
+                      "y": 75
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 39,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 228.5,
+                      "y": 75.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 40,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 228.5,
+                      "y": 74.5
+                    }
+                  },
+                  {
+                    "entity_number": 41,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 229.5,
+                      "y": 75.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 100,
+                        "index": 1,
+                        "name": "repair-pack"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 42,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 229.5,
+                      "y": 74.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 300,
+                        "index": 1,
+                        "name": "destroyer-capsule"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 43,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 227,
+                      "y": 77
+                    }
+                  }
+                ],
+                "icons": [
+                  {
+                    "index": 1,
+                    "signal": {
+                      "name": "destroyer-capsule",
+                      "type": "item"
+                    }
+                  }
+                ],
+                "item": "blueprint",
+                "label": "Expansion (Hostile)",
+                "schedules": [
+                  {
+                    "locomotives": [
+                      1
+                    ],
+                    "schedule": [
+                      {
+                        "station": "MAIN - SUPPLY - Expansion",
+                        "wait_conditions": [
+                          {
+                            "compare_type": "or",
+                            "type": "full"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "version": 281479275544576
+              },
+              "index": 1
+            },
+            {
+              "blueprint": {
+                "entities": [
+                  {
+                    "color": {
+                      "a": 0.49803921580314636,
+                      "b": 1,
+                      "g": 0,
+                      "r": 0.4313725531101227
+                    },
+                    "entity_number": 1,
+                    "name": "locomotive",
+                    "orientation": 0,
+                    "position": {
+                      "x": 221,
+                      "y": 60
+                    }
+                  },
+                  {
+                    "entity_number": 2,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 221,
+                      "y": 57
+                    }
+                  },
+                  {
+                    "color": {
+                      "a": 0.49803921580314636,
+                      "b": 1,
+                      "g": 0,
+                      "r": 0.4313725531101227
+                    },
+                    "entity_number": 3,
+                    "name": "train-stop",
+                    "position": {
+                      "x": 223,
+                      "y": 57
+                    },
+                    "station": ""
+                  },
+                  {
+                    "entity_number": 4,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 221,
+                      "y": 59
+                    }
+                  },
+                  {
+                    "entity_number": 5,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 221,
+                      "y": 61
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 6,
+                    "name": "fast-inserter",
+                    "position": {
+                      "x": 222.5,
+                      "y": 60.5
+                    }
+                  },
+                  {
+                    "entity_number": 7,
+                    "name": "logistic-chest-requester",
+                    "position": {
+                      "x": 223.5,
+                      "y": 60.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 1,
+                        "index": 1,
+                        "name": "nuclear-fuel"
+                      }
+                    ],
+                    "request_from_buffers": true
+                  },
+                  {
+                    "entity_number": 8,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 221,
+                      "y": 63
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 9,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 219.5,
+                      "y": 65.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 10,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 219.5,
+                      "y": 64.5
+                    }
+                  },
+                  {
+                    "entity_number": 11,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 218.5,
+                      "y": 64.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 170,
+                        "index": 1,
+                        "name": "electric-mining-drill"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 12,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 218.5,
+                      "y": 65.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 170,
+                        "index": 1,
+                        "name": "electric-mining-drill"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 13,
+                    "inventory": {
+                      "filters": [
+                        {
+                          "index": 1,
+                          "name": "electric-mining-drill"
+                        },
+                        {
+                          "index": 2,
+                          "name": "electric-mining-drill"
+                        },
+                        {
+                          "index": 3,
+                          "name": "electric-mining-drill"
+                        },
+                        {
+                          "index": 4,
+                          "name": "electric-mining-drill"
+                        },
+                        {
+                          "index": 5,
+                          "name": "electric-mining-drill"
+                        },
+                        {
+                          "index": 6,
+                          "name": "electric-mining-drill"
+                        },
+                        {
+                          "index": 7,
+                          "name": "electric-mining-drill"
+                        },
+                        {
+                          "index": 8,
+                          "name": "electric-mining-drill"
+                        },
+                        {
+                          "index": 9,
+                          "name": "electric-mining-drill"
+                        },
+                        {
+                          "index": 10,
+                          "name": "electric-mining-drill"
+                        },
+                        {
+                          "index": 11,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 12,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 13,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 14,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 15,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 16,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 17,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 18,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 19,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 20,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 21,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 22,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 23,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 24,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 25,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 26,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 27,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 28,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 29,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 30,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 31,
+                          "name": "express-underground-belt"
+                        },
+                        {
+                          "index": 32,
+                          "name": "express-underground-belt"
+                        },
+                        {
+                          "index": 33,
+                          "name": "express-underground-belt"
+                        },
+                        {
+                          "index": 34,
+                          "name": "express-underground-belt"
+                        },
+                        {
+                          "index": 35,
+                          "name": "express-underground-belt"
+                        },
+                        {
+                          "index": 36,
+                          "name": "express-splitter"
+                        },
+                        {
+                          "index": 37,
+                          "name": "express-splitter"
+                        },
+                        {
+                          "index": 38,
+                          "name": "medium-electric-pole"
+                        },
+                        {
+                          "index": 39,
+                          "name": "medium-electric-pole"
+                        },
+                        {
+                          "index": 40,
+                          "name": "medium-electric-pole"
+                        }
+                      ]
+                    },
+                    "name": "cargo-wagon",
+                    "orientation": 0,
+                    "position": {
+                      "x": 221,
+                      "y": 67
+                    }
+                  },
+                  {
+                    "entity_number": 14,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 221,
+                      "y": 65
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 15,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 222.5,
+                      "y": 65.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 16,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 222.5,
+                      "y": 64.5
+                    }
+                  },
+                  {
+                    "entity_number": 17,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 223.5,
+                      "y": 65.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "express-transport-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 18,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 223.5,
+                      "y": 64.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "express-transport-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 19,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 219.5,
+                      "y": 66.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 20,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 219.5,
+                      "y": 67.5
+                    }
+                  },
+                  {
+                    "entity_number": 21,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 218.5,
+                      "y": 66.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 170,
+                        "index": 1,
+                        "name": "electric-mining-drill"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 22,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 218.5,
+                      "y": 67.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 250,
+                        "index": 1,
+                        "name": "express-underground-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 23,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 221,
+                      "y": 67
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 24,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 222.5,
+                      "y": 67.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 25,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 222.5,
+                      "y": 66.5
+                    }
+                  },
+                  {
+                    "entity_number": 26,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 223.5,
+                      "y": 67.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "express-transport-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 27,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 223.5,
+                      "y": 66.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "express-transport-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 28,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 219.5,
+                      "y": 68.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 29,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 219.5,
+                      "y": 69.5
+                    }
+                  },
+                  {
+                    "entity_number": 30,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 218.5,
+                      "y": 68.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 100,
+                        "index": 1,
+                        "name": "express-splitter"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 31,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 218.5,
+                      "y": 69.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 150,
+                        "index": 1,
+                        "name": "medium-electric-pole"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 32,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 221,
+                      "y": 69
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 33,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 222.5,
+                      "y": 69.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 34,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 222.5,
+                      "y": 68.5
+                    }
+                  },
+                  {
+                    "entity_number": 35,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 223.5,
+                      "y": 69.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "express-transport-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 36,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 223.5,
+                      "y": 68.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "express-transport-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 37,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 219.5,
+                      "y": 71.5
+                    }
+                  },
+                  {
+                    "entity_number": 38,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 218.5,
+                      "y": 71.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 250,
+                        "index": 1,
+                        "name": "fast-inserter"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 39,
+                    "inventory": {
+                      "filters": [
+                        {
+                          "index": 1,
+                          "name": "electric-furnace"
+                        },
+                        {
+                          "index": 2,
+                          "name": "electric-furnace"
+                        },
+                        {
+                          "index": 3,
+                          "name": "electric-furnace"
+                        },
+                        {
+                          "index": 4,
+                          "name": "fast-inserter"
+                        },
+                        {
+                          "index": 5,
+                          "name": "fast-inserter"
+                        },
+                        {
+                          "index": 6,
+                          "name": "fast-inserter"
+                        },
+                        {
+                          "index": 7,
+                          "name": "fast-inserter"
+                        },
+                        {
+                          "index": 8,
+                          "name": "fast-inserter"
+                        },
+                        {
+                          "index": 9,
+                          "name": "substation"
+                        },
+                        {
+                          "index": 10,
+                          "name": "substation"
+                        },
+                        {
+                          "index": 11,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 12,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 13,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 14,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 15,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 16,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 17,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 18,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 19,
+                          "name": "steel-chest"
+                        },
+                        {
+                          "index": 20,
+                          "name": "steel-chest"
+                        },
+                        {
+                          "index": 21,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 22,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 23,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 24,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 25,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 26,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 27,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 28,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 29,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 30,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 31,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 32,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 33,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 34,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 35,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 36,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 37,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 38,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 39,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 40,
+                          "name": "beacon"
+                        }
+                      ]
+                    },
+                    "name": "cargo-wagon",
+                    "orientation": 0,
+                    "position": {
+                      "x": 221,
+                      "y": 74
+                    }
+                  },
+                  {
+                    "entity_number": 40,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 221,
+                      "y": 71
+                    }
+                  },
+                  {
+                    "entity_number": 41,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 223.5,
+                      "y": 71.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 50,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 42,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 222.5,
+                      "y": 71.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 43,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 219.5,
+                      "y": 73.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 44,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 219.5,
+                      "y": 72.5
+                    }
+                  },
+                  {
+                    "entity_number": 45,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 218.5,
+                      "y": 73.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 150,
+                        "index": 1,
+                        "name": "electric-furnace"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 46,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 218.5,
+                      "y": 72.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 200,
+                        "index": 1,
+                        "name": "stack-inserter"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 47,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 221,
+                      "y": 73
+                    }
+                  },
+                  {
+                    "entity_number": 48,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 223.5,
+                      "y": 73.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 50,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 49,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 223.5,
+                      "y": 72.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 50,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 50,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 222.5,
+                      "y": 73.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 51,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 222.5,
+                      "y": 72.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 52,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 219.5,
+                      "y": 75.5
+                    }
+                  },
+                  {
+                    "entity_number": 53,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 218.5,
+                      "y": 75.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 100,
+                        "index": 1,
+                        "name": "steel-chest"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 54,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 219.5,
+                      "y": 74.5
+                    }
+                  },
+                  {
+                    "entity_number": 55,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 218.5,
+                      "y": 74.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 100,
+                        "index": 1,
+                        "name": "substation"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 56,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 221,
+                      "y": 75
+                    }
+                  },
+                  {
+                    "entity_number": 57,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 223.5,
+                      "y": 74.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 50,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 58,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 222.5,
+                      "y": 74.5
+                    }
+                  },
+                  {
+                    "entity_number": 59,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 221,
+                      "y": 77
+                    }
+                  }
+                ],
+                "icons": [
+                  {
+                    "index": 1,
+                    "signal": {
+                      "name": "electric-mining-drill",
+                      "type": "item"
+                    }
+                  }
+                ],
+                "item": "blueprint",
+                "label": "Mining & Smelting",
+                "schedules": [
+                  {
+                    "locomotives": [
+                      1
+                    ],
+                    "schedule": [
+                      {
+                        "station": "MAIN - SUPPLY - Mining/Smelting",
+                        "wait_conditions": [
+                          {
+                            "compare_type": "or",
+                            "type": "full"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "version": 281479275544576
+              },
+              "index": 2
+            },
+            {
+              "blueprint": {
+                "entities": [
+                  {
+                    "color": {
+                      "a": 0.49803921580314636,
+                      "b": 1,
+                      "g": 0,
+                      "r": 0.4313725531101227
+                    },
+                    "entity_number": 1,
+                    "name": "locomotive",
+                    "orientation": 0,
+                    "position": {
+                      "x": 203,
+                      "y": 60
+                    }
+                  },
+                  {
+                    "entity_number": 2,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 203,
+                      "y": 57
+                    }
+                  },
+                  {
+                    "color": {
+                      "a": 0.49803921580314636,
+                      "b": 1,
+                      "g": 0,
+                      "r": 0.4313725531101227
+                    },
+                    "entity_number": 3,
+                    "name": "train-stop",
+                    "position": {
+                      "x": 205,
+                      "y": 57
+                    },
+                    "station": ""
+                  },
+                  {
+                    "entity_number": 4,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 203,
+                      "y": 59
+                    }
+                  },
+                  {
+                    "entity_number": 5,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 203,
+                      "y": 61
+                    }
+                  },
+                  {
+                    "entity_number": 6,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 203,
+                      "y": 63
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 7,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 201.5,
+                      "y": 64.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 8,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 201.5,
+                      "y": 65.5
+                    }
+                  },
+                  {
+                    "entity_number": 9,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 200.5,
+                      "y": 65.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 25,
+                        "index": 1,
+                        "name": "oil-refinery"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 10,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 200.5,
+                      "y": 64.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 25,
+                        "index": 1,
+                        "name": "oil-refinery"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 11,
+                    "inventory": {
+                      "filters": [
+                        {
+                          "index": 1,
+                          "name": "pipe"
+                        },
+                        {
+                          "index": 2,
+                          "name": "pipe"
+                        },
+                        {
+                          "index": 3,
+                          "name": "pipe"
+                        },
+                        {
+                          "index": 4,
+                          "name": "pipe"
+                        },
+                        {
+                          "index": 5,
+                          "name": "pipe"
+                        },
+                        {
+                          "index": 6,
+                          "name": "pipe"
+                        },
+                        {
+                          "index": 7,
+                          "name": "pipe"
+                        },
+                        {
+                          "index": 8,
+                          "name": "pipe-to-ground"
+                        },
+                        {
+                          "index": 9,
+                          "name": "pipe-to-ground"
+                        },
+                        {
+                          "index": 10,
+                          "name": "pipe-to-ground"
+                        },
+                        {
+                          "index": 11,
+                          "name": "storage-tank"
+                        },
+                        {
+                          "index": 12,
+                          "name": "pump"
+                        },
+                        {
+                          "index": 13,
+                          "name": "offshore-pump"
+                        },
+                        {
+                          "index": 14,
+                          "name": "pipe-to-ground"
+                        },
+                        {
+                          "index": 15,
+                          "name": "pipe-to-ground"
+                        },
+                        {
+                          "index": 16,
+                          "name": "pipe-to-ground"
+                        },
+                        {
+                          "index": 17,
+                          "name": "pipe-to-ground"
+                        },
+                        {
+                          "index": 18,
+                          "name": "pipe-to-ground"
+                        },
+                        {
+                          "index": 19,
+                          "name": "pipe-to-ground"
+                        },
+                        {
+                          "index": 20,
+                          "name": "pipe-to-ground"
+                        },
+                        {
+                          "index": 21,
+                          "name": "pumpjack"
+                        },
+                        {
+                          "index": 22,
+                          "name": "pumpjack"
+                        },
+                        {
+                          "index": 23,
+                          "name": "oil-refinery"
+                        },
+                        {
+                          "index": 24,
+                          "name": "oil-refinery"
+                        },
+                        {
+                          "index": 25,
+                          "name": "oil-refinery"
+                        },
+                        {
+                          "index": 26,
+                          "name": "oil-refinery"
+                        },
+                        {
+                          "index": 27,
+                          "name": "oil-refinery"
+                        },
+                        {
+                          "index": 28,
+                          "name": "boiler"
+                        },
+                        {
+                          "index": 29,
+                          "name": "boiler"
+                        },
+                        {
+                          "index": 30,
+                          "name": "heavy-oil-barrel"
+                        },
+                        {
+                          "index": 31,
+                          "name": "chemical-plant"
+                        },
+                        {
+                          "index": 32,
+                          "name": "chemical-plant"
+                        },
+                        {
+                          "index": 33,
+                          "name": "chemical-plant"
+                        },
+                        {
+                          "index": 34,
+                          "name": "chemical-plant"
+                        },
+                        {
+                          "index": 35,
+                          "name": "chemical-plant"
+                        },
+                        {
+                          "index": 36,
+                          "name": "chemical-plant"
+                        },
+                        {
+                          "index": 37,
+                          "name": "chemical-plant"
+                        },
+                        {
+                          "index": 38,
+                          "name": "chemical-plant"
+                        },
+                        {
+                          "index": 39,
+                          "name": "chemical-plant"
+                        },
+                        {
+                          "index": 40,
+                          "name": "chemical-plant"
+                        }
+                      ]
+                    },
+                    "name": "cargo-wagon",
+                    "orientation": 0,
+                    "position": {
+                      "x": 203,
+                      "y": 67
+                    }
+                  },
+                  {
+                    "entity_number": 12,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 203,
+                      "y": 65
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 13,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 204.5,
+                      "y": 65.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 14,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 204.5,
+                      "y": 64.5
+                    }
+                  },
+                  {
+                    "entity_number": 15,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 205.5,
+                      "y": 65.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 350,
+                        "index": 1,
+                        "name": "pipe"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 16,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 205.5,
+                      "y": 64.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 350,
+                        "index": 1,
+                        "name": "pipe"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 17,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 201.5,
+                      "y": 66.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 18,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 201.5,
+                      "y": 67.5
+                    }
+                  },
+                  {
+                    "entity_number": 19,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 200.5,
+                      "y": 67.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 100,
+                        "index": 1,
+                        "name": "boiler"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 20,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 200.5,
+                      "y": 66.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 40,
+                        "index": 1,
+                        "name": "pumpjack"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 21,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 203,
+                      "y": 67
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 22,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 204.5,
+                      "y": 67.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 23,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 204.5,
+                      "y": 66.5
+                    }
+                  },
+                  {
+                    "entity_number": 24,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 205.5,
+                      "y": 67.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 250,
+                        "index": 1,
+                        "name": "pipe-to-ground"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 25,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 205.5,
+                      "y": 66.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 250,
+                        "index": 1,
+                        "name": "pipe-to-ground"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 26,
+                    "name": "fast-inserter",
+                    "override_stack_size": 1,
+                    "position": {
+                      "x": 201.5,
+                      "y": 69.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 27,
+                    "name": "fast-inserter",
+                    "override_stack_size": 1,
+                    "position": {
+                      "x": 201.5,
+                      "y": 68.5
+                    }
+                  },
+                  {
+                    "entity_number": 28,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 200.5,
+                      "y": 69.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 20,
+                        "index": 1,
+                        "name": "offshore-pump"
+                      },
+                      {
+                        "count": 10,
+                        "index": 2,
+                        "name": "heavy-oil-barrel"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 29,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 200.5,
+                      "y": 68.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 50,
+                        "index": 1,
+                        "name": "storage-tank"
+                      },
+                      {
+                        "count": 50,
+                        "index": 2,
+                        "name": "pump"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 30,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 203,
+                      "y": 69
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 31,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 204.5,
+                      "y": 68.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 32,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 204.5,
+                      "y": 69.5
+                    }
+                  },
+                  {
+                    "entity_number": 33,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 205.5,
+                      "y": 69.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 50,
+                        "index": 1,
+                        "name": "chemical-plant"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 34,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 205.5,
+                      "y": 68.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 50,
+                        "index": 1,
+                        "name": "chemical-plant"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 35,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 201.5,
+                      "y": 71.5
+                    }
+                  },
+                  {
+                    "entity_number": 36,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 200.5,
+                      "y": 71.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 25,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 37,
+                    "inventory": {
+                      "bar": 30,
+                      "filters": [
+                        {
+                          "index": 1,
+                          "name": "medium-electric-pole"
+                        },
+                        {
+                          "index": 2,
+                          "name": "medium-electric-pole"
+                        },
+                        {
+                          "index": 3,
+                          "name": "medium-electric-pole"
+                        },
+                        {
+                          "index": 4,
+                          "name": "medium-electric-pole"
+                        },
+                        {
+                          "index": 5,
+                          "name": "substation"
+                        },
+                        {
+                          "index": 6,
+                          "name": "substation"
+                        },
+                        {
+                          "index": 7,
+                          "name": "substation"
+                        },
+                        {
+                          "index": 8,
+                          "name": "substation"
+                        },
+                        {
+                          "index": 9,
+                          "name": "big-electric-pole"
+                        },
+                        {
+                          "index": 10,
+                          "name": "big-electric-pole"
+                        },
+                        {
+                          "index": 11,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 12,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 13,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 14,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 15,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 16,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 17,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 18,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 19,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 20,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 21,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 22,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 23,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 24,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 25,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 26,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 27,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 28,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 29,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 30,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 31,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 32,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 33,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 34,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 35,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 36,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 37,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 38,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 39,
+                          "name": "deconstruction-planner"
+                        },
+                        {
+                          "index": 40,
+                          "name": "deconstruction-planner"
+                        }
+                      ]
+                    },
+                    "name": "cargo-wagon",
+                    "orientation": 0,
+                    "position": {
+                      "x": 203,
+                      "y": 74
+                    }
+                  },
+                  {
+                    "entity_number": 38,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 203,
+                      "y": 71
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 39,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 204.5,
+                      "y": 71.5
+                    }
+                  },
+                  {
+                    "entity_number": 40,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 205.5,
+                      "y": 71.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 200,
+                        "index": 1,
+                        "name": "medium-electric-pole"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 41,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 201.5,
+                      "y": 72.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 42,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 201.5,
+                      "y": 73.5
+                    }
+                  },
+                  {
+                    "entity_number": 43,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 200.5,
+                      "y": 73.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 25,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 44,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 200.5,
+                      "y": 72.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 25,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 45,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 203,
+                      "y": 73
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 46,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 204.5,
+                      "y": 73.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 47,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 204.5,
+                      "y": 72.5
+                    }
+                  },
+                  {
+                    "entity_number": 48,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 205.5,
+                      "y": 73.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 100,
+                        "index": 1,
+                        "name": "big-electric-pole"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 49,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 205.5,
+                      "y": 72.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 200,
+                        "index": 1,
+                        "name": "substation"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 50,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 201.5,
+                      "y": 74.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 51,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 201.5,
+                      "y": 75.5
+                    }
+                  },
+                  {
+                    "entity_number": 52,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 200.5,
+                      "y": 75.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 25,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 53,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 200.5,
+                      "y": 74.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 25,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 54,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 203,
+                      "y": 75
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 55,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 204.5,
+                      "y": 75.5
+                    }
+                  },
+                  {
+                    "entity_number": 56,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 205.5,
+                      "y": 75.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 25,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 57,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 201.5,
+                      "y": 76.5
+                    }
+                  },
+                  {
+                    "entity_number": 58,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 200.5,
+                      "y": 76.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 25,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 59,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 203,
+                      "y": 77
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 60,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 204.5,
+                      "y": 76.5
+                    }
+                  },
+                  {
+                    "entity_number": 61,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 205.5,
+                      "y": 76.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 25,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  }
+                ],
+                "icons": [
+                  {
+                    "index": 1,
+                    "signal": {
+                      "name": "oil-refinery",
+                      "type": "item"
+                    }
+                  }
+                ],
+                "item": "blueprint",
+                "label": "Petrochem",
+                "schedules": [
+                  {
+                    "locomotives": [
+                      1
+                    ],
+                    "schedule": [
+                      {
+                        "station": "MAIN - SUPPLY - Petrochem",
+                        "wait_conditions": [
+                          {
+                            "compare_type": "or",
+                            "type": "full"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "version": 281479275544576
+              },
+              "index": 3
+            },
+            {
+              "blueprint": {
+                "entities": [
+                  {
+                    "color": {
+                      "a": 0.49803921580314636,
+                      "b": 1,
+                      "g": 0,
+                      "r": 0.4313725531101227
+                    },
+                    "entity_number": 1,
+                    "name": "locomotive",
+                    "orientation": 0,
+                    "position": {
+                      "x": 213,
+                      "y": 60
+                    }
+                  },
+                  {
+                    "entity_number": 2,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 57
+                    }
+                  },
+                  {
+                    "color": {
+                      "a": 0.49803921580314636,
+                      "b": 1,
+                      "g": 0,
+                      "r": 0.4313725531101227
+                    },
+                    "entity_number": 3,
+                    "name": "train-stop",
+                    "position": {
+                      "x": 215,
+                      "y": 57
+                    },
+                    "station": ""
+                  },
+                  {
+                    "entity_number": 4,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 59
+                    }
+                  },
+                  {
+                    "entity_number": 5,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 61
+                    }
+                  },
+                  {
+                    "entity_number": 6,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 63
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 7,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 65.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 8,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 64.5
+                    }
+                  },
+                  {
+                    "entity_number": 9,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 64.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 125,
+                        "index": 1,
+                        "name": "express-underground-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 10,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 65.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 125,
+                        "index": 1,
+                        "name": "express-underground-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 11,
+                    "inventory": {
+                      "filters": [
+                        {
+                          "index": 1,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 2,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 3,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 4,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 5,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 6,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 7,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 8,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 9,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 10,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 11,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 12,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 13,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 14,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 15,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 16,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 17,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 18,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 19,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 20,
+                          "name": "express-transport-belt"
+                        },
+                        {
+                          "index": 21,
+                          "name": "express-underground-belt"
+                        },
+                        {
+                          "index": 22,
+                          "name": "express-underground-belt"
+                        },
+                        {
+                          "index": 23,
+                          "name": "express-underground-belt"
+                        },
+                        {
+                          "index": 24,
+                          "name": "express-underground-belt"
+                        },
+                        {
+                          "index": 25,
+                          "name": "express-underground-belt"
+                        },
+                        {
+                          "index": 26,
+                          "name": "express-underground-belt"
+                        },
+                        {
+                          "index": 27,
+                          "name": "express-underground-belt"
+                        },
+                        {
+                          "index": 28,
+                          "name": "express-underground-belt"
+                        },
+                        {
+                          "index": 29,
+                          "name": "express-underground-belt"
+                        },
+                        {
+                          "index": 30,
+                          "name": "express-underground-belt"
+                        },
+                        {
+                          "index": 31,
+                          "name": "fast-underground-belt"
+                        },
+                        {
+                          "index": 32,
+                          "name": "fast-underground-belt"
+                        },
+                        {
+                          "index": 33,
+                          "name": "fast-underground-belt"
+                        },
+                        {
+                          "index": 34,
+                          "name": "fast-underground-belt"
+                        },
+                        {
+                          "index": 35,
+                          "name": "fast-underground-belt"
+                        },
+                        {
+                          "index": 36,
+                          "name": "express-splitter"
+                        },
+                        {
+                          "index": 37,
+                          "name": "express-splitter"
+                        },
+                        {
+                          "index": 38,
+                          "name": "express-splitter"
+                        },
+                        {
+                          "index": 39,
+                          "name": "express-splitter"
+                        },
+                        {
+                          "index": 40,
+                          "name": "express-splitter"
+                        }
+                      ]
+                    },
+                    "name": "cargo-wagon",
+                    "orientation": 0,
+                    "position": {
+                      "x": 213,
+                      "y": 67
+                    }
+                  },
+                  {
+                    "entity_number": 12,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 65
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 13,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 65.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 14,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 64.5
+                    }
+                  },
+                  {
+                    "entity_number": 15,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 65.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "express-transport-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 16,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 64.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "express-transport-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 17,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 67.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 18,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 66.5
+                    }
+                  },
+                  {
+                    "entity_number": 19,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 66.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 125,
+                        "index": 1,
+                        "name": "express-underground-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 20,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 67.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 125,
+                        "index": 1,
+                        "name": "express-underground-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 21,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 67
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 22,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 67.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 23,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 66.5
+                    }
+                  },
+                  {
+                    "entity_number": 24,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 67.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "express-transport-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 25,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 66.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "express-transport-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 26,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 69.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 27,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 68.5
+                    }
+                  },
+                  {
+                    "entity_number": 28,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 68.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 250,
+                        "index": 1,
+                        "name": "fast-underground-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 29,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 69.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 250,
+                        "index": 1,
+                        "name": "express-splitter"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 30,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 69
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 31,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 69.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 32,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 68.5
+                    }
+                  },
+                  {
+                    "entity_number": 33,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 69.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "express-transport-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 34,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 68.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 335,
+                        "index": 1,
+                        "name": "express-transport-belt"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 35,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 71.5
+                    }
+                  },
+                  {
+                    "entity_number": 36,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 71.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 150,
+                        "index": 1,
+                        "name": "stack-filter-inserter"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 37,
+                    "inventory": {
+                      "filters": [
+                        {
+                          "index": 1,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 2,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 3,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 4,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 5,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 6,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 7,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 8,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 9,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 10,
+                          "name": "stack-inserter"
+                        },
+                        {
+                          "index": 11,
+                          "name": "fast-inserter"
+                        },
+                        {
+                          "index": 12,
+                          "name": "fast-inserter"
+                        },
+                        {
+                          "index": 13,
+                          "name": "fast-inserter"
+                        },
+                        {
+                          "index": 14,
+                          "name": "fast-inserter"
+                        },
+                        {
+                          "index": 15,
+                          "name": "fast-inserter"
+                        },
+                        {
+                          "index": 16,
+                          "name": "fast-inserter"
+                        },
+                        {
+                          "index": 17,
+                          "name": "long-handed-inserter"
+                        },
+                        {
+                          "index": 18,
+                          "name": "long-handed-inserter"
+                        },
+                        {
+                          "index": 19,
+                          "name": "long-handed-inserter"
+                        },
+                        {
+                          "index": 20,
+                          "name": "long-handed-inserter"
+                        },
+                        {
+                          "index": 21,
+                          "name": "stack-filter-inserter"
+                        },
+                        {
+                          "index": 22,
+                          "name": "stack-filter-inserter"
+                        },
+                        {
+                          "index": 23,
+                          "name": "stack-filter-inserter"
+                        },
+                        {
+                          "index": 24,
+                          "name": "roboport"
+                        },
+                        {
+                          "index": 25,
+                          "name": "roboport"
+                        },
+                        {
+                          "index": 26,
+                          "name": "roboport"
+                        },
+                        {
+                          "index": 27,
+                          "name": "roboport"
+                        },
+                        {
+                          "index": 28,
+                          "name": "logistic-robot"
+                        },
+                        {
+                          "index": 29,
+                          "name": "logistic-robot"
+                        },
+                        {
+                          "index": 30,
+                          "name": "logistic-robot"
+                        },
+                        {
+                          "index": 31,
+                          "name": "steel-chest"
+                        },
+                        {
+                          "index": 32,
+                          "name": "steel-chest"
+                        },
+                        {
+                          "index": 33,
+                          "name": "steel-chest"
+                        },
+                        {
+                          "index": 34,
+                          "name": "steel-chest"
+                        },
+                        {
+                          "index": 35,
+                          "name": "steel-chest"
+                        },
+                        {
+                          "index": 36,
+                          "name": "logistic-robot"
+                        },
+                        {
+                          "index": 37,
+                          "name": "logistic-robot"
+                        },
+                        {
+                          "index": 38,
+                          "name": "logistic-robot"
+                        },
+                        {
+                          "index": 39,
+                          "name": "logistic-robot"
+                        },
+                        {
+                          "index": 40,
+                          "name": "logistic-robot"
+                        }
+                      ]
+                    },
+                    "name": "cargo-wagon",
+                    "orientation": 0,
+                    "position": {
+                      "x": 213,
+                      "y": 74
+                    }
+                  },
+                  {
+                    "entity_number": 38,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 71
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 39,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 71.5
+                    }
+                  },
+                  {
+                    "entity_number": 40,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 71.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 170,
+                        "index": 1,
+                        "name": "stack-inserter"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 41,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 72.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 42,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 73.5
+                    }
+                  },
+                  {
+                    "entity_number": 43,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 72.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 40,
+                        "index": 1,
+                        "name": "roboport"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 44,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 73.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 200,
+                        "index": 1,
+                        "name": "logistic-robot"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 45,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 73
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 46,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 73.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 47,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 72.5
+                    }
+                  },
+                  {
+                    "entity_number": 48,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 73.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 170,
+                        "index": 1,
+                        "name": "stack-inserter"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 49,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 72.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 170,
+                        "index": 1,
+                        "name": "stack-inserter"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 50,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 74.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 51,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 75.5
+                    }
+                  },
+                  {
+                    "entity_number": 52,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 75.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 125,
+                        "index": 1,
+                        "name": "steel-chest"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 53,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 74.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 200,
+                        "index": 1,
+                        "name": "logistic-robot"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 54,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 75
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 55,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 75.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 56,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 74.5
+                    }
+                  },
+                  {
+                    "entity_number": 57,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 75.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 150,
+                        "index": 1,
+                        "name": "fast-inserter"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 58,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 74.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 150,
+                        "index": 1,
+                        "name": "fast-inserter"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 59,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 76.5
+                    }
+                  },
+                  {
+                    "entity_number": 60,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 76.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 125,
+                        "index": 1,
+                        "name": "steel-chest"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 61,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 77
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 62,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 76.5
+                    }
+                  },
+                  {
+                    "entity_number": 63,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 76.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 200,
+                        "index": 1,
+                        "name": "long-handed-inserter"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 64,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 78.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 65,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 79.5
+                    }
+                  },
+                  {
+                    "entity_number": 66,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 78.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 10,
+                        "index": 1,
+                        "name": "locomotive"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 67,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 79.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 25,
+                        "index": 1,
+                        "name": "cargo-wagon"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 68,
+                    "inventory": {
+                      "filters": [
+                        {
+                          "index": 1,
+                          "name": "pipe"
+                        },
+                        {
+                          "index": 2,
+                          "name": "pipe"
+                        },
+                        {
+                          "index": 3,
+                          "name": "pipe"
+                        },
+                        {
+                          "index": 4,
+                          "name": "pipe"
+                        },
+                        {
+                          "index": 5,
+                          "name": "pipe-to-ground"
+                        },
+                        {
+                          "index": 6,
+                          "name": "pipe-to-ground"
+                        },
+                        {
+                          "index": 7,
+                          "name": "pipe-to-ground"
+                        },
+                        {
+                          "index": 8,
+                          "name": "pipe-to-ground"
+                        },
+                        {
+                          "index": 9,
+                          "name": "pipe-to-ground"
+                        },
+                        {
+                          "index": 10,
+                          "name": "pipe-to-ground"
+                        },
+                        {
+                          "index": 11,
+                          "name": "storage-tank"
+                        },
+                        {
+                          "index": 12,
+                          "name": "pump"
+                        },
+                        {
+                          "index": 13,
+                          "name": "offshore-pump"
+                        },
+                        {
+                          "index": 14,
+                          "name": "medium-electric-pole"
+                        },
+                        {
+                          "index": 15,
+                          "name": "medium-electric-pole"
+                        },
+                        {
+                          "index": 16,
+                          "name": "medium-electric-pole"
+                        },
+                        {
+                          "index": 17,
+                          "name": "medium-electric-pole"
+                        },
+                        {
+                          "index": 18,
+                          "name": "substation"
+                        },
+                        {
+                          "index": 19,
+                          "name": "substation"
+                        },
+                        {
+                          "index": 20,
+                          "name": "substation"
+                        },
+                        {
+                          "index": 21,
+                          "name": "big-electric-pole"
+                        },
+                        {
+                          "index": 22,
+                          "name": "big-electric-pole"
+                        },
+                        {
+                          "index": 23,
+                          "name": "train-stop"
+                        },
+                        {
+                          "index": 24,
+                          "name": "locomotive"
+                        },
+                        {
+                          "index": 25,
+                          "name": "locomotive"
+                        },
+                        {
+                          "index": 26,
+                          "name": "cargo-wagon"
+                        },
+                        {
+                          "index": 27,
+                          "name": "cargo-wagon"
+                        },
+                        {
+                          "index": 28,
+                          "name": "cargo-wagon"
+                        },
+                        {
+                          "index": 29,
+                          "name": "cargo-wagon"
+                        },
+                        {
+                          "index": 30,
+                          "name": "cargo-wagon"
+                        },
+                        {
+                          "index": 31,
+                          "name": "fluid-wagon"
+                        },
+                        {
+                          "index": 32,
+                          "name": "fluid-wagon"
+                        },
+                        {
+                          "index": 33,
+                          "name": "fluid-wagon"
+                        },
+                        {
+                          "index": 34,
+                          "name": "fluid-wagon"
+                        },
+                        {
+                          "index": 35,
+                          "name": "fluid-wagon"
+                        },
+                        {
+                          "index": 36,
+                          "name": "cargo-wagon"
+                        },
+                        {
+                          "index": 37,
+                          "name": "cargo-wagon"
+                        },
+                        {
+                          "index": 38,
+                          "name": "cargo-wagon"
+                        },
+                        {
+                          "index": 39,
+                          "name": "cargo-wagon"
+                        },
+                        {
+                          "index": 40,
+                          "name": "cargo-wagon"
+                        }
+                      ]
+                    },
+                    "name": "cargo-wagon",
+                    "orientation": 0,
+                    "position": {
+                      "x": 213,
+                      "y": 81
+                    }
+                  },
+                  {
+                    "entity_number": 69,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 79
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 70,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 79.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 71,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 78.5
+                    }
+                  },
+                  {
+                    "entity_number": 72,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 78.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 400,
+                        "index": 1,
+                        "name": "pipe"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 73,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 79.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 150,
+                        "index": 1,
+                        "name": "pipe-to-ground"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 74,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 80.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 75,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 81.5
+                    }
+                  },
+                  {
+                    "entity_number": 76,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 81.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 25,
+                        "index": 1,
+                        "name": "fluid-wagon"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 77,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 80.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 25,
+                        "index": 1,
+                        "name": "cargo-wagon"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 78,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 81
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 79,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 81.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 80,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 80.5
+                    }
+                  },
+                  {
+                    "entity_number": 81,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 81.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 200,
+                        "index": 1,
+                        "name": "medium-electric-pole"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 82,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 80.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 150,
+                        "index": 1,
+                        "name": "pipe-to-ground"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 83,
+                    "name": "fast-inserter",
+                    "override_stack_size": 1,
+                    "position": {
+                      "x": 211.5,
+                      "y": 82.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 84,
+                    "name": "fast-inserter",
+                    "override_stack_size": 1,
+                    "position": {
+                      "x": 211.5,
+                      "y": 83.5
+                    }
+                  },
+                  {
+                    "entity_number": 85,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 83.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 50,
+                        "index": 1,
+                        "name": "storage-tank"
+                      },
+                      {
+                        "count": 50,
+                        "index": 2,
+                        "name": "pump"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 86,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 82.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 20,
+                        "index": 1,
+                        "name": "offshore-pump"
+                      },
+                      {
+                        "count": 10,
+                        "index": 2,
+                        "name": "train-stop"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 87,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 83
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 88,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 83.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 89,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 82.5
+                    }
+                  },
+                  {
+                    "entity_number": 90,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 83.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 100,
+                        "index": 1,
+                        "name": "big-electric-pole"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 91,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 82.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 150,
+                        "index": 1,
+                        "name": "substation"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 92,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 85.5
+                    }
+                  },
+                  {
+                    "entity_number": 93,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 85.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 36,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 94,
+                    "inventory": {
+                      "filters": [
+                        {
+                          "index": 1,
+                          "name": "assembling-machine-3"
+                        },
+                        {
+                          "index": 2,
+                          "name": "assembling-machine-3"
+                        },
+                        {
+                          "index": 3,
+                          "name": "assembling-machine-3"
+                        },
+                        {
+                          "index": 4,
+                          "name": "assembling-machine-3"
+                        },
+                        {
+                          "index": 5,
+                          "name": "assembling-machine-3"
+                        },
+                        {
+                          "index": 6,
+                          "name": "chemical-plant"
+                        },
+                        {
+                          "index": 7,
+                          "name": "chemical-plant"
+                        },
+                        {
+                          "index": 8,
+                          "name": "chemical-plant"
+                        },
+                        {
+                          "index": 9,
+                          "name": "chemical-plant"
+                        },
+                        {
+                          "index": 10,
+                          "name": "chemical-plant"
+                        },
+                        {
+                          "index": 11,
+                          "name": "centrifuge"
+                        },
+                        {
+                          "index": 12,
+                          "name": "centrifuge"
+                        },
+                        {
+                          "index": 13,
+                          "name": "lab"
+                        },
+                        {
+                          "index": 14,
+                          "name": "lab"
+                        },
+                        {
+                          "index": 15,
+                          "name": "lab"
+                        },
+                        {
+                          "index": 16,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 17,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 18,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 19,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 20,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 21,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 22,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 23,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 24,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 25,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 26,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 27,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 28,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 29,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 30,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 31,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 32,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 33,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 34,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 35,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 36,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 37,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 38,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 39,
+                          "name": "beacon"
+                        },
+                        {
+                          "index": 40,
+                          "name": "beacon"
+                        }
+                      ]
+                    },
+                    "name": "cargo-wagon",
+                    "orientation": 0,
+                    "position": {
+                      "x": 213,
+                      "y": 88
+                    }
+                  },
+                  {
+                    "entity_number": 95,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 85
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 96,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 85.5
+                    }
+                  },
+                  {
+                    "entity_number": 97,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 85.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 125,
+                        "index": 1,
+                        "name": "assembling-machine-3"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 98,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 86.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 99,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 87.5
+                    }
+                  },
+                  {
+                    "entity_number": 100,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 87.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 36,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 101,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 86.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 36,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 102,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 87
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 103,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 87.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 104,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 86.5
+                    }
+                  },
+                  {
+                    "entity_number": 105,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 87.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 50,
+                        "index": 1,
+                        "name": "chemical-plant"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 106,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 86.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 125,
+                        "index": 1,
+                        "name": "assembling-machine-3"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 107,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 88.5
+                    }
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 108,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 89.5
+                    }
+                  },
+                  {
+                    "entity_number": 109,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 89.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 36,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 110,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 88.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 36,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 111,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 89
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 112,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 89.5
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 113,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 88.5
+                    }
+                  },
+                  {
+                    "entity_number": 114,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 89.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 30,
+                        "index": 1,
+                        "name": "lab"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 115,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 88.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 100,
+                        "index": 1,
+                        "name": "centrifuge"
+                      }
+                    ]
+                  },
+                  {
+                    "direction": 6,
+                    "entity_number": 116,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 211.5,
+                      "y": 90.5
+                    }
+                  },
+                  {
+                    "entity_number": 117,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 210.5,
+                      "y": 90.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 36,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  },
+                  {
+                    "entity_number": 118,
+                    "name": "straight-rail",
+                    "position": {
+                      "x": 213,
+                      "y": 91
+                    }
+                  },
+                  {
+                    "direction": 2,
+                    "entity_number": 119,
+                    "name": "stack-inserter",
+                    "position": {
+                      "x": 214.5,
+                      "y": 90.5
+                    }
+                  },
+                  {
+                    "entity_number": 120,
+                    "name": "logistic-chest-buffer",
+                    "position": {
+                      "x": 215.5,
+                      "y": 90.5
+                    },
+                    "request_filters": [
+                      {
+                        "count": 36,
+                        "index": 1,
+                        "name": "beacon"
+                      }
+                    ]
+                  }
+                ],
+                "icons": [
+                  {
+                    "index": 1,
+                    "signal": {
+                      "name": "assembling-machine-3",
+                      "type": "item"
+                    }
+                  }
+                ],
+                "item": "blueprint",
+                "label": "Construction",
+                "schedules": [
+                  {
+                    "locomotives": [
+                      1
+                    ],
+                    "schedule": [
+                      {
+                        "station": "MAIN - SUPPLY - Construction",
+                        "wait_conditions": [
+                          {
+                            "compare_type": "or",
+                            "type": "full"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "version": 281479275544576
+              },
+              "index": 4
+            }
+          ],
+          "icons": [
+            {
+              "index": 1,
+              "signal": {
+                "name": "locomotive",
+                "type": "item"
+              }
+            }
+          ],
+          "item": "blueprint-book",
+          "label": "Supply Trains",
+          "version": 281479275544576
+        },
+        "index": 4
       }
     ],
     "icons": [
