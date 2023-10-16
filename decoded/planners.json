@@ -1,0 +1,546 @@
+{
+  "blueprint_book": {
+    "active_index": 0,
+    "blueprints": [
+      {
+        "deconstruction_planner": {
+          "item": "deconstruction-planner",
+          "label": "Trees & Rocks",
+          "settings": {
+            "trees_and_rocks_only": true
+          },
+          "version": 281479277641728
+        },
+        "index": 0
+      },
+      {
+        "deconstruction_planner": {
+          "item": "deconstruction-planner",
+          "label": "Ghosts",
+          "settings": {
+            "entity_filters": [
+              {
+                "index": 0,
+                "name": "entity-ghost"
+              },
+              {
+                "index": 1,
+                "name": "tile-ghost"
+              },
+              {
+                "index": 2,
+                "name": "item-request-proxy"
+              }
+            ],
+            "tile_selection_mode": 2
+          },
+          "version": 281479277641728
+        },
+        "index": 1
+      },
+      {
+        "deconstruction_planner": {
+          "item": "deconstruction-planner",
+          "label": "Ground Items",
+          "settings": {
+            "entity_filters": [
+              {
+                "index": 0,
+                "name": "item-on-ground"
+              }
+            ],
+            "tile_selection_mode": 2
+          },
+          "version": 281479277641728
+        },
+        "index": 2
+      },
+      {
+        "deconstruction_planner": {
+          "item": "deconstruction-planner",
+          "label": "Small Power Poles",
+          "settings": {
+            "entity_filters": [
+              {
+                "index": 0,
+                "name": "small-electric-pole"
+              }
+            ],
+            "tile_selection_mode": 2
+          },
+          "version": 281479277641728
+        },
+        "index": 3
+      },
+      {
+        "blueprint_book": {
+          "active_index": 0,
+          "blueprints": [
+            {
+              "index": 0,
+              "upgrade_planner": {
+                "item": "upgrade-planner",
+                "label": "→ Yellow",
+                "settings": {
+                  "icons": [
+                    {
+                      "index": 1,
+                      "signal": {
+                        "name": "transport-belt",
+                        "type": "item"
+                      }
+                    }
+                  ],
+                  "mappers": [
+                    {
+                      "from": {
+                        "name": "fast-transport-belt",
+                        "type": "entity"
+                      },
+                      "index": 0,
+                      "to": {
+                        "name": "transport-belt",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "express-transport-belt",
+                        "type": "entity"
+                      },
+                      "index": 4,
+                      "to": {
+                        "name": "transport-belt",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "fast-underground-belt",
+                        "type": "entity"
+                      },
+                      "index": 8,
+                      "to": {
+                        "name": "underground-belt",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "express-underground-belt",
+                        "type": "entity"
+                      },
+                      "index": 12,
+                      "to": {
+                        "name": "underground-belt",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "fast-splitter",
+                        "type": "entity"
+                      },
+                      "index": 16,
+                      "to": {
+                        "name": "splitter",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "express-splitter",
+                        "type": "entity"
+                      },
+                      "index": 20,
+                      "to": {
+                        "name": "splitter",
+                        "type": "entity"
+                      }
+                    }
+                  ]
+                },
+                "version": 281479277641728
+              }
+            },
+            {
+              "index": 1,
+              "upgrade_planner": {
+                "item": "upgrade-planner",
+                "label": "→ Red",
+                "settings": {
+                  "icons": [
+                    {
+                      "index": 1,
+                      "signal": {
+                        "name": "fast-transport-belt",
+                        "type": "item"
+                      }
+                    }
+                  ],
+                  "mappers": [
+                    {
+                      "from": {
+                        "name": "transport-belt",
+                        "type": "entity"
+                      },
+                      "index": 0,
+                      "to": {
+                        "name": "fast-transport-belt",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "express-transport-belt",
+                        "type": "entity"
+                      },
+                      "index": 4,
+                      "to": {
+                        "name": "fast-transport-belt",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "underground-belt",
+                        "type": "entity"
+                      },
+                      "index": 8,
+                      "to": {
+                        "name": "fast-underground-belt",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "express-underground-belt",
+                        "type": "entity"
+                      },
+                      "index": 12,
+                      "to": {
+                        "name": "fast-underground-belt",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "splitter",
+                        "type": "entity"
+                      },
+                      "index": 16,
+                      "to": {
+                        "name": "fast-splitter",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "express-splitter",
+                        "type": "entity"
+                      },
+                      "index": 20,
+                      "to": {
+                        "name": "fast-splitter",
+                        "type": "entity"
+                      }
+                    }
+                  ]
+                },
+                "version": 281479277641728
+              }
+            },
+            {
+              "index": 2,
+              "upgrade_planner": {
+                "item": "upgrade-planner",
+                "label": "→ Blue",
+                "settings": {
+                  "icons": [
+                    {
+                      "index": 1,
+                      "signal": {
+                        "name": "express-transport-belt",
+                        "type": "item"
+                      }
+                    }
+                  ],
+                  "mappers": [
+                    {
+                      "from": {
+                        "name": "transport-belt",
+                        "type": "entity"
+                      },
+                      "index": 0,
+                      "to": {
+                        "name": "express-transport-belt",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "fast-transport-belt",
+                        "type": "entity"
+                      },
+                      "index": 4,
+                      "to": {
+                        "name": "express-transport-belt",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "underground-belt",
+                        "type": "entity"
+                      },
+                      "index": 8,
+                      "to": {
+                        "name": "express-underground-belt",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "fast-underground-belt",
+                        "type": "entity"
+                      },
+                      "index": 12,
+                      "to": {
+                        "name": "express-underground-belt",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "splitter",
+                        "type": "entity"
+                      },
+                      "index": 16,
+                      "to": {
+                        "name": "express-splitter",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "fast-splitter",
+                        "type": "entity"
+                      },
+                      "index": 20,
+                      "to": {
+                        "name": "express-splitter",
+                        "type": "entity"
+                      }
+                    }
+                  ]
+                },
+                "version": 281479277641728
+              }
+            }
+          ],
+          "item": "blueprint-book",
+          "label": "Belts",
+          "version": 281479277641728
+        },
+        "index": 6
+      },
+      {
+        "blueprint_book": {
+          "active_index": 0,
+          "blueprints": [
+            {
+              "index": 0,
+              "upgrade_planner": {
+                "item": "upgrade-planner",
+                "label": "→ Slow",
+                "settings": {
+                  "mappers": [
+                    {
+                      "from": {
+                        "name": "fast-inserter",
+                        "type": "entity"
+                      },
+                      "index": 0,
+                      "to": {
+                        "name": "inserter",
+                        "type": "entity"
+                      }
+                    }
+                  ]
+                },
+                "version": 281479277641728
+              }
+            },
+            {
+              "index": 1,
+              "upgrade_planner": {
+                "item": "upgrade-planner",
+                "label": "→ Fast",
+                "settings": {
+                  "mappers": [
+                    {
+                      "from": {
+                        "name": "inserter",
+                        "type": "entity"
+                      },
+                      "index": 0,
+                      "to": {
+                        "name": "fast-inserter",
+                        "type": "entity"
+                      }
+                    }
+                  ]
+                },
+                "version": 281479277641728
+              }
+            },
+            {
+              "index": 2,
+              "upgrade_planner": {
+                "item": "upgrade-planner",
+                "label": "→ Stack",
+                "settings": {
+                  "mappers": [
+                    {
+                      "from": {
+                        "name": "inserter",
+                        "type": "entity"
+                      },
+                      "index": 0,
+                      "to": {
+                        "name": "stack-inserter",
+                        "type": "entity"
+                      }
+                    }
+                  ]
+                },
+                "version": 281479277641728
+              }
+            }
+          ],
+          "item": "blueprint-book",
+          "label": "Inserters",
+          "version": 281479277641728
+        },
+        "index": 7
+      },
+      {
+        "blueprint_book": {
+          "active_index": 0,
+          "blueprints": [
+            {
+              "index": 0,
+              "upgrade_planner": {
+                "item": "upgrade-planner",
+                "label": "→ 1",
+                "settings": {
+                  "mappers": [
+                    {
+                      "from": {
+                        "name": "assembling-machine-2",
+                        "type": "entity"
+                      },
+                      "index": 0,
+                      "to": {
+                        "name": "assembling-machine-1",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "assembling-machine-3",
+                        "type": "entity"
+                      },
+                      "index": 4,
+                      "to": {
+                        "name": "assembling-machine-1",
+                        "type": "entity"
+                      }
+                    }
+                  ]
+                },
+                "version": 281479277641728
+              }
+            },
+            {
+              "index": 1,
+              "upgrade_planner": {
+                "item": "upgrade-planner",
+                "label": "→ 2",
+                "settings": {
+                  "mappers": [
+                    {
+                      "from": {
+                        "name": "assembling-machine-1",
+                        "type": "entity"
+                      },
+                      "index": 0,
+                      "to": {
+                        "name": "assembling-machine-2",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "assembling-machine-3",
+                        "type": "entity"
+                      },
+                      "index": 4,
+                      "to": {
+                        "name": "assembling-machine-2",
+                        "type": "entity"
+                      }
+                    }
+                  ]
+                },
+                "version": 281479277641728
+              }
+            },
+            {
+              "index": 2,
+              "upgrade_planner": {
+                "item": "upgrade-planner",
+                "label": "→ 3",
+                "settings": {
+                  "mappers": [
+                    {
+                      "from": {
+                        "name": "assembling-machine-1",
+                        "type": "entity"
+                      },
+                      "index": 0,
+                      "to": {
+                        "name": "assembling-machine-3",
+                        "type": "entity"
+                      }
+                    },
+                    {
+                      "from": {
+                        "name": "assembling-machine-2",
+                        "type": "entity"
+                      },
+                      "index": 4,
+                      "to": {
+                        "name": "assembling-machine-3",
+                        "type": "entity"
+                      }
+                    }
+                  ]
+                },
+                "version": 281479277641728
+              }
+            }
+          ],
+          "item": "blueprint-book",
+          "label": "Assembling Machines",
+          "version": 281479277641728
+        },
+        "index": 8
+      }
+    ],
+    "description": "A collection of “canonical” deconstruction/upgrade planners.",
+    "item": "blueprint-book",
+    "label": "Planners",
+    "version": 281479277641728
+  }
+}

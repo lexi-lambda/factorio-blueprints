@@ -1,6 +1,6 @@
 blueprints := \
 	balancers base-in-a-book circuits-and-modules \
-	late-game-science megabase nuclear railway
+	late-game-science megabase nuclear planners railway
 
 decode: $(blueprints:%=decoded/%.json)
 encode: $(blueprints:%=encoded/%.blueprint)
